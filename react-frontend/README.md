@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Physics, Chemistry & Biology RAG Interface
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive chat interface built with React that provides a RAG (Retrieval-Augmented Generation) system for 12th grade Physics, Chemistry, and Biology textbooks.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Subject-Specific RAG**: Specialized for Physics, Chemistry, and Biology content
+- **Clean, Modern UI**: Inspired by ChatGPT's design with a clean and intuitive interface
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Dark Mode Support**: Built-in dark mode with smooth transitions
+- **Real-time Chat**: Interactive chat interface with message history
+- **Sidebar Navigation**: Collapsible sidebar with conversation management
+- **Smooth Animations**: Loading states and smooth transitions throughout
+- **Keyboard Shortcuts**: Enter to send messages, Shift+Enter for new lines
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React 19**: Latest React with hooks and modern patterns
+- **Tailwind CSS**: Utility-first CSS framework for styling
+- **Lucide React**: Beautiful, customizable icons
+- **RAG System**: Retrieval-Augmented Generation for textbook content
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Start the development server:
+   ```bash
+   npm start
+   ```
 
-### `npm run build`
+3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+src/
+├── components/
+│   ├── ChatInterface.jsx    # Main chat area with messages and input
+│   └── Sidebar.jsx         # Collapsible sidebar with conversations
+├── App.js                  # Main app component
+├── App.css                 # Global styles and animations
+└── index.css              # Tailwind setup and base styles
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+### Chat Interface
+- Message bubbles with different styles for user and assistant
+- Auto-scrolling to latest messages
+- Loading animations during AI responses
+- Responsive textarea with auto-resize
+- Send button with proper disabled states
+- Subject-specific placeholder text
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Sidebar
+- New study session button
+- Conversation history with active states
+- Delete conversation functionality
+- Collapsible design for mobile
+- User account and settings buttons
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Subject Coverage
+- **Physics**: Mechanics, thermodynamics, electromagnetism, optics, modern physics
+- **Chemistry**: Physical chemistry, organic chemistry, inorganic chemistry, analytical chemistry
+- **Biology**: Cell biology, genetics, evolution, ecology, human physiology
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Responsive Design
+- Mobile-first approach
+- Collapsible sidebar on smaller screens
+- Touch-friendly interface
+- Proper spacing and typography
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Customization
 
-## Learn More
+The interface is built with Tailwind CSS, making it easy to customize colors, spacing, and other design elements. The main color scheme can be modified in the component classes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Future Enhancements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Real RAG integration with textbook databases
+- Subject-specific conversation filtering
+- File upload support for study materials
+- Voice input/output for accessibility
+- Code syntax highlighting for formulas
+- Markdown rendering for scientific notation
+- Integration with learning management systems
