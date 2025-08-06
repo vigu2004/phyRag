@@ -1,4 +1,4 @@
-# 📘 Physics Knowledge Base
+# 📚 Multi-Subject Knowledge Base
 
 A local, intelligent question-answering system built from 12th-grade Physics, Chemistry, and Biology textbooks. This application uses vector embeddings to store and retrieve semantically relevant content from multiple textbooks, allowing users to ask natural language questions and get precise, contextually matched textbook passages in return.
 
