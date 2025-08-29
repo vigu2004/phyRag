@@ -2,3 +2,6 @@ chromadb
 sentence-transformers
 pymupdf
 fitz
+flask
+flask-cors
+requests

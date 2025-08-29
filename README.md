@@ -1,258 +1,153 @@
-# 📚 Multi-Subject Knowledge Base
+# RAG Physics Textbook System
 
-A local, intelligent question-answering system built from 12th-grade Physics, Chemistry, and Biology textbooks. This application uses vector embeddings to store and retrieve semantically relevant content from multiple textbooks, allowing users to ask natural language questions and get precise, contextually matched textbook passages in return.
+A Retrieval-Augmented Generation (RAG) system that allows users to query physics, chemistry, and biology textbooks using natural language. The system automatically searches across all subjects and retrieves the most relevant text chunk from any of the textbooks.
 
-## 🚀 Features
+## Features
 
-- **Multi-Subject Search**: Query across Physics, Chemistry, and Biology textbooks simultaneously
-- **Semantic Search**: Ask questions in natural language and get relevant textbook excerpts
-- **Advanced Reranking**: Uses cross-encoder models for improved result relevance
-- **Session Management**: Organize your research with multiple search sessions
-- **Modern UI**: Beautiful, responsive interface with dark theme and gradient backgrounds
-- **Real-time Search**: Instant results with loading states and smooth animations
-- **Contextual Results**: Get precise textbook passages with source citations
+- **Multi-Subject Search**: Automatically searches across Physics, Chemistry, and Biology textbooks
+- **Vector Database**: Uses ChromaDB to store and search through textbook content
+- **Semantic Search**: Employs sentence transformers for intelligent text retrieval
+- **Web Interface**: Modern React frontend with dark/light mode
+- **Smart Result Selection**: Returns the single most relevant chunk from all subjects combined
+- **Real-time Search**: Get instant responses from your textbook content
 
-## 🛠️ Technology Stack
-
-### Frontend
-- **Framework**: React 19 with modern hooks
-- **Styling**: Tailwind CSS with custom components
-- **UI Components**: Radix UI primitives with custom styling
-- **Icons**: Lucide React for consistent iconography
-- **Build Tool**: Create React App
-
-### Backend
-- **Vector Database**: ChromaDB for local vector storage
-- **Embedding Model**: SentenceTransformers (all-MiniLM-L6-v2)
-- **Reranking Model**: Cross-encoder/ms-marco-MiniLM-L-6-v2
-- **PDF Processing**: PyMuPDF for text extraction
-- **Python**: 3.8+ with virtual environment
-
-## 📋 Prerequisites
-
-- Node.js (version 16 or higher)
-- Python 3.8 or higher
-- npm or yarn package manager
-- pip (Python package manager)
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone <repository-url>
-cd RagPhytextbook
-```
-
-### 2. Setup Backend
-
-```bash
-# Create and activate virtual environment
-python -m venv .venv
-# On Windows:
-.venv\Scripts\activate
-# On macOS/Linux:
-source .venv/bin/activate
-
-# Install Python dependencies
-cd backend
-pip install -r requirements.txt
-```
-
-### 3. Data Ingestion
-
-```bash
-# Make sure you're in the backend directory
-python ingest.py
-```
-
-This will:
-- Process PDF textbooks from the `data/` directory
-- Extract text content and chunk by sections
-- Generate embeddings using SentenceTransformers
-- Store everything in ChromaDB vector database
-
-### 4. Test the Vector Store
-
-```bash
-# Test the search functionality
-python test.py
-```
-
-You can modify the query in `test.py` to test different questions.
-
-### 5. Setup Frontend
-
-```bash
-cd ../react-frontend
-npm install
-```
-
-### 6. Start the Development Server
-
-```bash
-npm start
-```
-
-The application will open in your browser at `http://localhost:3000`.
-
-## 🎯 Usage
-
-### Testing Vector Search
-1. Navigate to the `backend/` directory
-2. Edit the `query` variable in `test.py`
-3. Run `python test.py` to see search results
-
-### Frontend Interface
-1. Type your question in the search bar
-2. Press Enter or click the Search button
-3. View relevant textbook excerpts with source citations
-
-### Example Queries
-- "What is Ohm's Law?"
-- "Explain Newton's three laws"
-- "What is wave-particle duality?"
-- "Laboratory Test for Ketonic group"
-- "How do electric and magnetic fields interact?"
-
-### Session Management
-- Use the sidebar to organize different research sessions
-- Create new sessions for different topics
-- Switch between sessions to maintain context
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 RagPhytextbook/
-├── backend/
-│   ├── ingest.py           # Data ingestion script
-│   ├── test.py             # Vector search test script
+├── backend/                 # Python backend server
+│   ├── ingest.py           # Script to ingest PDFs into ChromaDB
+│   ├── server.py           # Flask server for handling queries
+│   ├── test_server.py      # Test script for the server
 │   └── requirements.txt    # Python dependencies
-├── data/
+├── chroma_db/              # Vector database storage
+├── data/                   # PDF textbooks
 │   ├── phy.pdf            # Physics textbook
 │   ├── chem.pdf           # Chemistry textbook
 │   └── bio.pdf            # Biology textbook
-├── chroma_db/             # Vector database storage
-├── react-frontend/
-│   ├── public/            # Static assets
-│   ├── src/
-│   │   ├── components/    # React components
-│   │   │   ├── ui/       # Reusable UI components
-│   │   │   ├── PhysicsKnowledgeBase.jsx
-│   │   │   └── SessionsSidebar.jsx
-│   │   ├── lib/          # Utility functions
-│   │   └── App.js        # Main application component
-│   ├── package.json      # Dependencies and scripts
-│   └── tailwind.config.js # Tailwind CSS configuration
-└── README.md             # This file
+└── react-frontend/         # React web application
+    ├── src/
+    │   ├── components/
+    │   │   ├── ChatInterface.jsx  # Main chat interface
+    │   │   └── Sidebar.jsx        # Navigation sidebar
+    │   └── App.js                 # Main application
+    └── package.json
 ```
 
-## 🔧 Backend Implementation
+## Setup Instructions
 
-### Data Processing Pipeline
-1. **PDF Extraction**: Uses PyMuPDF to extract text from PDF textbooks
-2. **Text Chunking**: Splits content by section numbers (e.g., 5.3, 11.1.2)
-3. **Embedding Generation**: Creates vector embeddings using SentenceTransformers
-4. **Vector Storage**: Stores embeddings and metadata in ChromaDB
+### 1. Backend Setup
 
-### Search Architecture
-1. **Query Embedding**: Converts user query to vector representation
-2. **Semantic Search**: Retrieves top-k candidates from each subject collection
-3. **Cross-Encoder Reranking**: Uses advanced reranking model for better relevance
-4. **Result Ranking**: Combines and sorts results across all subjects
+First, set up the Python backend:
 
-### Vector Database Schema
-- **Collections**: Separate collections for physics, chemistry, and biology
-- **Documents**: Textbook sections with full text content
-- **Metadata**: Section titles and identifiers
-- **Embeddings**: 384-dimensional vectors from all-MiniLM-L6-v2
+```bash
+cd backend
 
-## 🎨 UI Components
+# Install dependencies
+pip install -r requirements.txt
 
-The application uses a modern, accessible design system:
+# Ingest PDFs into ChromaDB (only needed once)
+python ingest.py
 
-- **Cards**: Display search results with proper hierarchy
-- **Input Fields**: Styled search inputs with focus states
-- **Buttons**: Consistent button styling with hover effects
-- **Sidebar**: Collapsible session management panel
-- **Dark Theme**: Purple gradient background with proper contrast
+# Start the Flask server
+python server.py
+```
 
-## 🔧 Development
+The server will start on `http://localhost:5000`
 
-### Backend Scripts
+### 2. Frontend Setup
 
-- `python ingest.py` - Process PDFs and populate vector database
-- `python test.py` - Test vector search functionality
+In a new terminal, set up the React frontend:
 
-### Frontend Scripts
+```bash
+cd react-frontend
 
-- `npm start` - Start development server
-- `npm build` - Build for production
-- `npm test` - Run test suite
-- `npm eject` - Eject from Create React App
+# Install dependencies
+npm install
 
-### Code Style
+# Start the development server
+npm start
+```
 
-The project follows modern patterns:
-- **Backend**: Clean Python with proper error handling
-- **Frontend**: Functional components with hooks
-- **UI**: Custom components with Radix primitives
-- **Styling**: Tailwind CSS for responsive design
+The frontend will be available at `http://localhost:3000`
 
-## ✅ Current Status
+### 3. Testing the System
 
-The project is now fully functional with:
+You can test the backend server using the provided test script:
 
-### Backend (✅ Complete)
-- ✅ PDF text extraction and processing
-- ✅ Multi-subject data ingestion (Physics, Chemistry, Biology)
-- ✅ Vector database setup with ChromaDB
-- ✅ Semantic search with SentenceTransformers
-- ✅ Advanced reranking with Cross-Encoder
-- ✅ Test script for querying the vector store
+```bash
+cd backend
+python test_server.py
+```
 
-### Frontend (✅ Complete)
-- ✅ Modern React application structure
-- ✅ Responsive design with Tailwind CSS
-- ✅ Session management interface
-- ✅ Beautiful gradient UI design
-- ✅ Mock search functionality
+## API Endpoints
 
-### Data (✅ Complete)
-- ✅ Physics textbook processed and stored
-- ✅ Chemistry textbook processed and stored
-- ✅ Biology textbook processed and stored
-- ✅ Vector embeddings generated and indexed
+- `GET /api/health` - Health check
+- `GET /api/collections` - Get available textbook collections
+- `POST /api/search` - Search for relevant text chunks across all collections
 
-## 🔄 Next Steps
+### Search API Usage
 
-To complete the full system integration:
+```json
+POST /api/search
+{
+    "query": "What is Newton's first law?"
+}
+```
 
-1. **API Integration**: Connect frontend to backend search API
-2. **Real-time Search**: Implement live search functionality
-3. **Result Display**: Show actual search results in the UI
-4. **Error Handling**: Add proper error handling for search failures
-5. **Performance Optimization**: Optimize search speed and result quality
+**Note**: No need to specify a collection - the server automatically searches all subjects!
 
-## 🤝 Contributing
+Response:
+```json
+{
+    "success": true,
+    "result": {
+        "text": "Retrieved text chunk...",
+        "metadata": {"title": "Section title"},
+        "distance": 0.123
+    },
+    "query": "What is Newton's first law?",
+    "collection": "physics_textbook",
+    "searched_collections": ["physics_textbook", "chemistry_textbook", "biology_textbook"]
+}
+```
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+## How It Works
 
-## 📝 License
+1. **Ingestion**: PDFs are processed and chunked by sections, then embedded and stored in ChromaDB
+2. **Query Processing**: User queries are converted to embeddings and compared against stored chunks
+3. **Multi-Collection Search**: The server searches across ALL three subject collections simultaneously
+4. **Smart Selection**: The single most relevant chunk (lowest distance) from any subject is selected
+5. **Display**: Results are shown in the web interface with metadata, source subject, and relevance scores
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Key Benefits
 
-## 🙏 Acknowledgments
+- **No Subject Selection Needed**: Users can ask questions without knowing which subject they belong to
+- **Best Match Guaranteed**: Always gets the most relevant result from any subject
+- **Seamless Experience**: Single search interface that covers all subjects
+- **Intelligent Routing**: Automatically routes questions to the most appropriate textbook
 
-- Built with React and modern web technologies
-- Vector search powered by SentenceTransformers and ChromaDB
-- UI components inspired by modern design systems
-- Multi-subject content based on 12th-grade curriculum standards
+## Customization
 
----
+- **Add New Books**: Place PDFs in the `data/` folder and update `BOOKS` in `ingest.py`
+- **Change Embedding Model**: Modify the model in `ingest.py` and `server.py`
+- **Adjust Chunking**: Modify the `chunk_by_section` function in `ingest.py`
 
-**Note**: The backend vector search system is fully functional and can be tested using the `test.py` script. The frontend is ready for integration with the backend API to create a complete intelligent question-answering system. 
+## Troubleshooting
+
+- **Server Connection Error**: Ensure the Flask server is running on port 5000
+- **No Results**: Check that PDFs were properly ingested using `python ingest.py`
+- **CORS Issues**: The server includes CORS headers, but ensure your frontend is on the correct port
+
+## Dependencies
+
+### Backend
+- Flask - Web framework
+- ChromaDB - Vector database
+- Sentence Transformers - Text embeddings
+- PyMuPDF - PDF processing
+
+### Frontend
+- React - UI framework
+- Tailwind CSS - Styling
+- Lucide React - Icons 

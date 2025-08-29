@@ -30,17 +30,52 @@ const ChatInterface = ({ sidebarOpen, onToggleSidebar, isDarkMode, onToggleDarkM
         setInputValue('');
         setIsLoading(true);
 
-        // Simulate AI response
-        setTimeout(() => {
-            const aiMessage = {
+        try {
+            // Send query to backend server - now searches all collections automatically
+            const response = await fetch('http://localhost:5000/api/search', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    query: inputValue
+                })
+            });
+
+            const data = await response.json();
+
+            if (data.success) {
+                const aiMessage = {
+                    id: Date.now() + 1,
+                    role: 'assistant',
+                    content: data.result.text,
+                    metadata: data.result.metadata,
+                    distance: data.result.distance,
+                    collection: data.collection,
+                    searchedCollections: data.searched_collections,
+                    timestamp: new Date()
+                };
+                setMessages(prev => [...prev, aiMessage]);
+            } else {
+                const errorMessage = {
+                    id: Date.now() + 1,
+                    role: 'assistant',
+                    content: `Error: ${data.error}`,
+                    timestamp: new Date()
+                };
+                setMessages(prev => [...prev, errorMessage]);
+            }
+        } catch (error) {
+            const errorMessage = {
                 id: Date.now() + 1,
                 role: 'assistant',
-                content: 'This is a simulated response from the Physics, Chemistry, and Biology RAG system. In a real application, this would provide accurate answers based on the 12th grade textbook content.',
+                content: `Failed to connect to server. Please make sure the backend server is running.`,
                 timestamp: new Date()
             };
-            setMessages(prev => [...prev, aiMessage]);
+            setMessages(prev => [...prev, errorMessage]);
+        } finally {
             setIsLoading(false);
-        }, 1000);
+        }
     };
 
     const hasMessages = messages.length > 0;
@@ -53,6 +88,9 @@ const ChatInterface = ({ sidebarOpen, onToggleSidebar, isDarkMode, onToggleDarkM
                     <h1 className={`text-xl font-semibold font-inter ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
                         Physics, Chemistry & Biology RAG
                     </h1>
+                    <span className={`text-sm px-3 py-1 rounded-full ${isDarkMode ? 'bg-[#2A2B32] text-slate-300' : 'bg-gray-100 text-gray-600'}`}>
+                        Searches all subjects
+                    </span>
                 </div>
                 <div className="flex items-center space-x-3">
                     <button
@@ -86,6 +124,22 @@ const ChatInterface = ({ sidebarOpen, onToggleSidebar, isDarkMode, onToggleDarkM
                                     }`}
                             >
                                 <p className="text-sm leading-relaxed font-inter">{message.content}</p>
+
+                                {/* Display metadata for AI responses */}
+                                {message.role === 'assistant' && message.metadata && (
+                                    <div className={`mt-3 p-3 rounded-lg text-xs ${isDarkMode ? 'bg-[#2A2B32] text-slate-300' : 'bg-gray-100 text-gray-600'
+                                        }`}>
+                                        <p className="font-medium">Source: {message.metadata.title}</p>
+                                        <p className="mt-1">Subject: {message.collection?.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase())}</p>
+                                        {message.distance && (
+                                            <p className="mt-1">Relevance Score: {(1 - message.distance).toFixed(3)}</p>
+                                        )}
+                                        <p className="mt-1 text-xs opacity-75">
+                                            Searched: {message.searchedCollections?.join(', ').replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
+                                        </p>
+                                    </div>
+                                )}
+
                                 <p className={`text-xs mt-3 font-inter ${isDarkMode ? 'opacity-70' : 'text-gray-500'}`}>
                                     {message.timestamp.toLocaleTimeString()}
                                 </p>
@@ -137,7 +191,10 @@ const ChatInterface = ({ sidebarOpen, onToggleSidebar, isDarkMode, onToggleDarkM
                     <button
                         type="submit"
                         disabled={!inputValue.trim() || isLoading}
-                        className="px-6 py-4 bg-indigo-500 hover:bg-indigo-600 disabled:bg-gray-300 disabled:cursor-not-allowed text-white rounded-2xl transition-all duration-200 flex items-center justify-center shadow-sm hover:shadow-md"
+                        className={`px-6 py-4 rounded-2xl transition-all duration-200 flex items-center justify-center shadow-sm hover:shadow-md ${!inputValue.trim() || isLoading
+                                ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
+                                : 'bg-indigo-500 hover:bg-indigo-600 text-white hover:shadow-lg transform hover:scale-105'
+                            }`}
                     >
                         <Send className="w-5 h-5" />
                     </button>
