@@ -22,33 +22,38 @@ def test_server():
         print(f"Collections failed: {e}")
         return
     
-    # Test search endpoint - now searches all collections automatically
-    print("\nTesting search endpoint (searches all collections)...")
-    test_queries = [
-        "What is Newton's first law?",
-        "What is the chemical formula for water?",
-        "What is photosynthesis?"
-    ]
-    
-    for query in test_queries:
-        print(f"\nQuery: {query}")
-        try:
-            response = requests.post(
-                f"{base_url}/api/search",
-                json={"query": query}
-            )
-            print(f"Status: {response.status_code}")
-            if response.status_code == 200:
-                data = response.json()
-                print(f"Result from: {data['collection']}")
-                print(f"Text length: {len(data['result']['text'])}")
-                print(f"Metadata: {data['result']['metadata']}")
-                print(f"Distance: {data['result']['distance']}")
-                print(f"Searched collections: {data['searched_collections']}")
-            else:
+    # Test search endpoint with a sample query
+    print("\nTesting search endpoint (RAG flow with rephrasing, reranking, answer gen)...")
+    test_query = "Explain Laboratory Test for Aldehydes."
+    print(f"\nQuery: {test_query}")
+    try:
+        response = requests.post(
+            f"{base_url}/api/search",
+            json={"query": test_query}
+        )
+        print(f"Status: {response.status_code}")
+        if response.status_code == 200:
+            data = response.json()
+            # Print key fields from new response shape
+            print("query_original:", data.get("query_original"))
+            print("query_rephrased:", data.get("query_rephrased"))
+            print("answer (first 300 chars):", (data.get("answer") or "")[:300] + ("..." if data.get("answer") and len(data.get("answer")) > 300 else ""))
+            
+            sources = data.get("sources") or []
+            print(f"sources (top {len(sources)}):")
+            for i, s in enumerate(sources, start=1):
+                print(f"  [{i}] collection={s.get('collection')} page={s.get('page')} rerank_score={s.get('rerank_score')} distance={s.get('distance')}")
+                text = s.get('text') or ""
+                snippet = text[:200].replace("\n", " ") + ("..." if len(text) > 200 else "")
+                print(f"      snippet: {snippet}")
+        else:
+            # Print error payload
+            try:
                 print(f"Error: {response.json()}")
-        except Exception as e:
-            print(f"Search failed: {e}")
+            except Exception:
+                print(f"Error body: {response.text}")
+    except Exception as e:
+        print(f"Search failed: {e}")
 
 if __name__ == "__main__":
     test_server() 

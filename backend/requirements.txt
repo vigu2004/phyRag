@@ -5,3 +5,5 @@ fitz
 flask
 flask-cors
 requests
+transformers
+torch

@@ -38,7 +38,7 @@ const ChatInterface = ({ sidebarOpen, onToggleSidebar, isDarkMode, onToggleDarkM
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    query: inputValue
+                    query: userMessage.content
                 })
             });
 
@@ -48,11 +48,10 @@ const ChatInterface = ({ sidebarOpen, onToggleSidebar, isDarkMode, onToggleDarkM
                 const aiMessage = {
                     id: Date.now() + 1,
                     role: 'assistant',
-                    content: data.result.text,
-                    metadata: data.result.metadata,
-                    distance: data.result.distance,
-                    collection: data.collection,
-                    searchedCollections: data.searched_collections,
+                    content: data.answer,
+                    queryOriginal: data.query_original,
+                    queryRephrased: data.query_rephrased,
+                    sources: data.sources || [],
                     timestamp: new Date()
                 };
                 setMessages(prev => [...prev, aiMessage]);
@@ -79,6 +78,11 @@ const ChatInterface = ({ sidebarOpen, onToggleSidebar, isDarkMode, onToggleDarkM
     };
 
     const hasMessages = messages.length > 0;
+
+    const formatCollectionName = (name) => {
+        if (!name) return '';
+        return name.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+    };
 
     return (
         <div className={`flex flex-col h-full ${hasMessages ? (isDarkMode ? 'bg-[#202123]' : 'bg-gray-50') : (isDarkMode ? 'bg-[#18191A]' : 'bg-white')}`}>
@@ -125,18 +129,45 @@ const ChatInterface = ({ sidebarOpen, onToggleSidebar, isDarkMode, onToggleDarkM
                             >
                                 <p className="text-sm leading-relaxed font-inter">{message.content}</p>
 
-                                {/* Display metadata for AI responses */}
-                                {message.role === 'assistant' && message.metadata && (
-                                    <div className={`mt-3 p-3 rounded-lg text-xs ${isDarkMode ? 'bg-[#2A2B32] text-slate-300' : 'bg-gray-100 text-gray-600'
-                                        }`}>
-                                        <p className="font-medium">Source: {message.metadata.title}</p>
-                                        <p className="mt-1">Subject: {message.collection?.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase())}</p>
-                                        {message.distance && (
-                                            <p className="mt-1">Relevance Score: {(1 - message.distance).toFixed(3)}</p>
+                                {/* Extra info for AI responses */}
+                                {message.role === 'assistant' && (
+                                    <div className="mt-4 space-y-3">
+                                        {/* Rephrased Query */}
+                                        {message.queryRephrased && (
+                                            <div className={`p-3 rounded-lg text-xs ${isDarkMode ? 'bg-[#2A2B32] text-slate-300' : 'bg-gray-100 text-gray-700'}`}>
+                                                <p className="font-medium">Rephrased query</p>
+                                                <p className="mt-1 italic">{message.queryRephrased}</p>
+                                            </div>
                                         )}
-                                        <p className="mt-1 text-xs opacity-75">
-                                            Searched: {message.searchedCollections?.join(', ').replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
-                                        </p>
+
+                                        {/* Sources */}
+                                        {Array.isArray(message.sources) && message.sources.length > 0 && (
+                                            <div className={`p-3 rounded-lg ${isDarkMode ? 'bg-[#111214] border border-[#2A2B32]' : 'bg-gray-50 border border-gray-200'}`}>
+                                                <p className={`text-sm font-semibold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>Sources</p>
+                                                <div className="mt-2 space-y-3">
+                                                    {message.sources.map((src, idx) => (
+                                                        <div key={idx} className={`p-3 rounded-md ${isDarkMode ? 'bg-[#1A1B1E]' : 'bg-white'} border ${isDarkMode ? 'border-[#2A2B32]' : 'border-gray-200'}`}>
+                                                            <div className="flex flex-wrap items-center gap-x-3 text-xs">
+                                                                <span className={`font-medium ${isDarkMode ? 'text-slate-200' : 'text-gray-800'}`}>{formatCollectionName(src.collection)}</span>
+                                                                {src.page !== undefined && src.page !== null && (
+                                                                    <span className={`${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>Page: {src.page}</span>
+                                                                )}
+                                                                {typeof src.rerank_score === 'number' && (
+                                                                    <span className={`${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>Rerank: {src.rerank_score.toFixed(3)}</span>
+                                                                )}
+                                                                {typeof src.distance === 'number' && (
+                                                                    <span className={`${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>Similarity: {(1 - src.distance).toFixed(3)}</span>
+                                                                )}
+                                                            </div>
+                                                            <p className={`mt-2 text-sm ${isDarkMode ? 'text-slate-200' : 'text-gray-800'}`}>{src.text}</p>
+                                                            {src.metadata && src.metadata.title && (
+                                                                <p className={`mt-1 text-xs ${isDarkMode ? 'text-slate-400' : 'text-gray-500'}`}>Title: {src.metadata.title}</p>
+                                                            )}
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        )}
                                     </div>
                                 )}
 
@@ -192,8 +223,8 @@ const ChatInterface = ({ sidebarOpen, onToggleSidebar, isDarkMode, onToggleDarkM
                         type="submit"
                         disabled={!inputValue.trim() || isLoading}
                         className={`px-6 py-4 rounded-2xl transition-all duration-200 flex items-center justify-center shadow-sm hover:shadow-md ${!inputValue.trim() || isLoading
-                                ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
-                                : 'bg-indigo-500 hover:bg-indigo-600 text-white hover:shadow-lg transform hover:scale-105'
+                            ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
+                            : 'bg-indigo-500 hover:bg-indigo-600 text-white hover:shadow-lg transform hover:scale-105'
                             }`}
                     >
                         <Send className="w-5 h-5" />
