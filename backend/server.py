@@ -95,7 +95,19 @@ def build_answer(rephrased_query, top_docs):
 		)
 	context = "\n\n".join(context_blocks)
 	prompt = (
-		"Answer the question concisely using ONLY the provided sources. If unsure, say you are unsure.\n"
+		"""
+		You must answer the user's question concisely and strictly using only the information available in the provided sources.  
+
+Rules:  
+1. Source-Only Constraint: Use only the provided sources. Do not use outside knowledge, assumptions, or speculation.  
+2. Exhaustive Extraction: If multiple relevant answers appear in the sources (e.g., a list, multiple names, or several points in a paragraph), you must extract and include all of them. Do not omit or reduce them to a single item.  
+3. Exact Representation: Present the answers as they appear in the sources. Do not merge, rephrase, or interpret them.  
+4. Format for Clarity:  
+   - If one answer → respond concisely in one line.  
+   - If multiple answers → present them as a bullet list or comma-separated list.  
+5. No Extra Info: Do not add explanations, context, or external knowledge.  
+6. Uncertainty: If the sources do not provide the answer, reply only with: "I am unsure." 
+\n"""
 		f"Question: {rephrased_query}\n"
 		f"Sources:\n{context}\n"
 		"Answer:"
