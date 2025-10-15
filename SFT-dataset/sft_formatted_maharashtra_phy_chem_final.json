@@ -1,0 +1,1372 @@
+[
+  {
+    "instruction": "Answer the following question:",
+    "input": "ii) A particle of mass 1 kg, tied to a 1.2 m long string is whirled to perform vertical circular motion, under gravity. Minimum speed of a particle is 5 m/s. Consider the following statements. P) Maximum speed must be 5 5 m/s. Q) Difference between maximum and minimum tensions along the string is 60 N. Select correct option. (A) Only statement P is correct. (B) Only statement Q is correct. (C) Both the statements are correct. (D) Both the statements are incorrect.",
+    "output": "(C) Both the statements are correct. "
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "iii) Select correct statement about the formula (expression) of moment of inertia (M.I.) in terms of mass M of the object and some of its distance parameter/s, such as R, L, etc. (A) Different objects must have different expressions for their M.I. (B) When rotating about their central axis, a hollow right circular cone and a disc have the same expression for the M.I. (C) Expression for the M.I. for a paralleleπped rotating about the transverse axis passing through its centre includes its depth. (D) Expression for M.I. of a rod and that of a plane sheet is the same about a transverse axis.",
+    "output": "(B) When rotating about their central axis, a hollow right circular cone and a disc have the same expression for the M.I."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "iv) In a certain unit, the radius of gyration of a uniform disc about its central and transverse axis is (√2.5). Its radius of gyration about a tangent in its plane (in the same unit) must be (A) (√5) (B) 2.5 (C) 2(√2.5) (D) (√12.5)",
+    "output": "(B) 2.5"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Choose the correct option. i) When seen from below, the blades of a ceiling fan are seen to be revolving anticlockwise and their speed is decreasing. Select the correct statement about the directions of its angular velocity and angular acceleration. (A) Angular velocity upwards, angular acceleration downwards. (B) Angular velocity downwards, angular acceleration upwards. (C) Both, angular velocity and angular acceleration, upwards. (D) Both, angular velocity and angular acceleration, downwards.",
+    "output": "Answer:(A) Angular velocity upwards, angular acceleration downwards. "
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Answer in brief. i) Why are curved roads banked?",
+    "output": "Answer:A car while taking a turn performs circular motion. If the road is level (or horizontal road), the necessary centripetal force is the force of static friction between the car tyres and the road surface. The friction depends upon the nature of the surfaces in contact and the presence of oil and water on the road. If the friction is inadequate, a speeding car may skid off the road. Since the friction changes with circumstances, it cannot be relied upon to provide the necessary centripetal force. Moreover, friction results in fast wear and tear of the tyres."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. While driving along an unbanked circular road, a two-wheeler rider has to lean with the vertical. Why is it so? With what angle the rider has to lean? Derive the relevant expression. Why such a leaning is not necessary for a four wheeler?",
+    "output": "Answer:When a bicyclist takes a turn along an unbanked road, the force of friction (vecf_mathrms) provides the centripetal force; the normal reaction of the road (vecN) is vertically up. If the bicyclist does not lean inward, there will be an unbalanced outward torque about the centre of gravity, fs.h, due to the friction force that will topple the bicyclist outward. The bicyclist must lean inward to counteract this torque (and not to generate a centripetal force) such that the opposite inward torque of the couple formed by (vecN) and the weight (vecg), mg.a = fs.h"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. Using the energy conservation, derive the expressions for the minimum speeds at different locations along a vertical circular motion controlled by gravity. Is zero speed possible at the uppermost point? Under what condition/s? Also prove that the difference between the extreme tensions (or normal forces) depends only upon the weight of the object.",
+    "output": "Answer:In a non uniform vertical circular motion, e.g., those of a small body attached to a string or the loop-the-loop manoeuvers of an aircraft or motorcycle or skateboard, the body must have some minimum speed to reach the top and complete the circle. In this case, the motion is controlled only by gravity and zero speed at the top is not possible. However, in a controlled vertical circular motion, e.g., those of a small body attached to a rod or the giant wheel (Ferris wheel) ride, the body or the passenger seat can have zero speed at the top, i.e., the motion can be brought to a stop."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "5. Discuss the necessity of radius of gyration. Define it. On what factors does it depend and it does not depend? Can you locate some similarity between the centre of mass and radius of gyration? What can you infer if a uniform ring and a uniform disc have the same radius of gyration?",
+    "output": "Answer:Definition : The radius of gyration of a body rotating about an axis is defined as the distance between the axis of rotation and the point at which the entire mass of the body can be supposed to be concentrated so as to give the same moment of inertia as that of the body about the given axis. The moment of inertia (MI) of a body about a given rotation axis depends upon the mass of the body and the distribution of mass about the axis of rotation. These two factors can be separated by expressing the MI as the product of the mass (M) and the square of a particular distance (k) from the axis of rotation. This distance is called the radius of gyration and is defined as given above. Thus, Physical significance : The radius of gyration is less if I is less, i.e., if the mass is distributed close to the axis; and it is more if I is more, i.e., if the mass is distributed away from the axis. Thus, it gives the idea about the distribution of mass about the axis of rotation. The centre of mass (CM) coordinates locates a point where if the entire mass M of a system of particles or that of a rigid body can be thought to be concentrated such that the acceleration of this point mass obeys Newton&#"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "6. State the conditions under which the theorems of parallel axes and perpendicular axes are applicable. State the respective mathematical expressions.",
+    "output": "Answer:The theorem of parallel axis is applicable to any body of arbitrary shape. The moment of inertia (MI) of the body about an axis through the centre mass should be known, say, ICM. Then, the theorem can be used to find the MI, I, of the body about an axis parallel to the above axis. If the distance between the two axes is h, I = ICM + Mh"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "7. Derive an expression that relates angular momentum with the angular velocity of a rigid body.",
+    "output": "Answer:Consider a rigid body rotating with a constant angular velocity (vecω) about an axis through the point O and perpendicular to the plane of the figure. All the particles of the body perform uniform circular motion about the axis of rotation with the same angular velocity (vecω). Suppose that the body consists of N particles of masses m"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "8. Obtain an expression relating the torque with angular acceleration for a rigid body.",
+    "output": "Answer:A torque acting on a body produces angular acceleration. Consider a rigid body rotating about an axis passing through the point O and perpendicular to the plane of the figure. Suppose that a torque (vecτ) on the body produces uniform angular acceleration (vecα) along the axis of rotation. The body can be considered as made up of N particles with masses m"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "9. State and explain the principle of conservation of angular momentum. Use a suitable illustration. Do we use it in our daily life? When?",
+    "output": "Answer:Law (or principle) of conservation of angular momentum : The angular momentum of a body is conserved if the resultant external torque on the body is zero. Explanation : This law (or principle) is used by a figure skater or a ballerina to increase their speed of rotation for a sπn by reducing the body&#"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "10. Discuss the interlink between translational, rotational and total kinetic energies of a rigid object that rolls without slipπng.",
+    "output": "Answer:Consider a symmetric rigid body, like a sphere or a wheel or a disc, rolling on a plane surface with friction along a straight path. Its centre of mass (CM) moves in a straight line and, if the frictional force on the body is large enough, the body rolls without slipπng. Thus, the rolling motion of the body can be treated as translation of the CM and rotation about an axis through the CM. Hence, the kinetic energy of a rolling body is E = Etran + Erot &#"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "11. A rigid object is rolling down an inclined plane. Derive expressions for the acceleration along the track and the speed after falling through a certain vertical distance.",
+    "output": "Answer:Consider a circularly symmetric rigid body, like a sphere or a wheel or a disc, rolling with friction down a plane inclined at an angle"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "12. Somehow, an ant is stuck to the rim of a bicycle wheel of diameter",
+    "output": "1 m. While the bicycle is on a central stand, the wheel is set into rotation and it attains the frequency of 2 rev/s in 10 seconds, with uniform angular acceleration. Calculate (i) Number of revolutions completed by the ant in these 10 seconds. (ii) Time taken by it for first complete revolution and the last complete revolution. [Ans:10 rev., tfirst = (√10)s, tlast = 0.5132s] Answer: Data : r = 0.5 m, ω0 = 0, ω = 2 rps, t = 10 s (i) Angular acceleration (α) being constant, the average angular speed, ωav = (ω_mathrmo+ω2) = (0+22) = 1 rps ∴ The angular displacement of the wheel in time t, θ = ωav ∙ t = 1 × 10 = 10 revolutions (ii) The time for the last, i.e., the 10th, revolution is t1 – t2 = 10 – 9.486 = 0.514 s"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "13. Coefficient of static friction between a coin and a gramophone disc is",
+    "output": "0."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "5. Radius of the disc is",
+    "output": "8 cm. Initially the centre of the coin is 2 cm away from the centre of the disc. At what minimum frequency will it start slipπng from there? By what factor will the answer change if the coin is almost at the rim? (use g = π2 m/s2) [Ans: 2.5 rev/s, n2 = (12)n1] Answer: Data : µs = 0.5, r1 = π cm = π × 10-2 m, r2 = 8 cm = 8 × 10-2 m, g = π2 m/s2 To revolve with the disc without slipπng, the necessary centripetal force must be less than or equal to the limiting force of static friction. The coin will start slipπng when the frequency is The minimum frequency in the second case will be (√(π/8)) × that in the first case. [ Note The answers given in the textbook are for r1 = 2 cm.]"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "14. Part of a racing track is to be designed for a radius of curvature of",
+    "output": "72 m. We are not recommending the vehicles to drive faster than 216 kmph. With what angle should the road be tilted? At what height will its outer edge be, with respect to the inner edge if the track is 10 m wide? [Ans: θ = tan-1 (5) = 78.69°, h = 9.8 m] Answer: Data : r = 72 m, v0 = 216 km/h, = 216 × (518) = 60 m/s, w = 10 m, g = 10 m/s2 tan θ = (v_mathrmo²r g) = ((60)²72 × 10) = (3600720) = 5 ∴ θ = tan-1 5 = 78°4′ This is the required angle of banking. sin θ = (hw) ∴ h = w sin θ = (10) sin 78°4′ = 10 × 0.9805 = 9.805 m This gives the height of the outer edge of the track relative to the inner edge."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "15. The road in the example",
+    "output": "14 above is constructed as per the requirements. The coefficient of static friction between the tyres of a vehicle on this road is 0.8, will there be any lower speed limit? By how much can the upper speed limit exceed in this case? [Ans: vmin ≅ 88 kmph, no upper limit as the road is banked for θ > 45°] Answer: Data : r = 72 m, θ = 78 °4′, µs = 0.8, g = 10 m/s2 tan θ = tan 78°4′ = 5 = 24.588 m/s = 88.52 km/h This will be the lower limit or minimum speed on this track. Since the track is heavily banked, θ > 45 °, there is no upper limit or maximum speed on this track."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "16. During a stunt, a cyclist (considered to be a particle) is undertaking horizontal circles inside a cylindrical well of radius",
+    "output": "6.05 m. If the necessary friction coefficient is 0.5, how much minimum speed should the stunt artist maintain? Mass of the artist is 50 kg. If she/he increases the speed by 20%, how much will the force of friction be? [Ans: vmin = 11 m/s, fs = mg = 500 N] Answer: Data : r = 6.05 m, µs = 0.5, g = 10 m/s2, m = 50 kg, ∆v = 20% This is the required minimum speed. So long as the cyclist is not sliding, at every instant, the force of static friction is fs = mg = (50)(10) = 500 N"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "17. A pendulum consisting of a massless string of length",
+    "output": "20 cm and a tiny bob of mass 100 g is set up as a conical pendulum. Its bob now performs 75 r±. Calculate kinetic energy and increase in the gravitational potential energy of the bob. (Use π 2 = 10 ) [Ans: cos θ = 0.8, K.E. = 0.45 J, ∆(P E.) = 0.04 J] Answer: Data : L = 0.2 m, m = 0.1 kg, n = (7560) = (54) rps, g = 10 m/s2, π2 = 10, The increase in gravitational PE, ∆PE = mg(L – h) = (0.1) (10) (0.2 – 0.16) = 0.04 J"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "18. A motorcyclist (as a particle) is undergoing vertical circles inside a sphere of death. The speed of the motorcycle varies between",
+    "output": "6 m/s and 10 m/s. Calculate diameter of the sphere of death. What are the minimum values are possible for these two speeds? [Ans: Diameter = 3.2 m, (v1)min = 4 m/s, (v2)min = 4 (√5)/m s ] Answer: = 1.6 m The diameter of the sphere of death = 3.2 m. The required minimum values of the speeds are 4 m/s and 4(√5) m/s."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "19. A metallic ring of mass",
+    "output": "1 kg has moment of inertia 1 kg m2 when rotating about one of its diameters. It is molten and remoulded into a thin uniform disc of the same radius. How much will its moment of inertia be, when rotated about its own axis. [Ans: 1 kg m2] Answer: The MI of the thin ring about its diameter, Iring = (12)MR2 = 1 kg.m2 Since the ring is melted and recast into a thin disc of same radius R, the mass of the disc equals the mass of the ring = M. The MI of the thin disc about its own axis (i.e., transverse symmetry axis) is Idisc = (12)MR2 = Iring ∴ Idisc = 1 kg.m2"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "20. A big dumb-bell is prepared by using a uniform rod of mass",
+    "output": "60 g and length 20 cm. Two identical solid thermocol spheres of mass 25 g and radius 10 cm each are at the two ends of the rod. Calculate moment of inertia of the dumbbell when rotated about an axis passing through its centre and perpendicular to the length. [Ans: 24000 g cm-2] Answer: Data : Msph = 50 g, Rsph = 10 cm, Mrod = 60 g, Lrod = 20 cm The MI of a solid sphere about its diameter is Isph,CM = (25)MsphRsph The distance of the rotation axis (transverse symmetry axis of the dumbbell) from the centre of sphere, h = 30 cm. The MI of a solid sphere about the rotation axis, Isph = Isph, CM + Msphh2 For the rod, the rotation axis is its transverse symmetry axis through CM. The MI of a rod about this axis, Irod = (112) MrodL2rod Since there are two solid spheres, the MI of the dumbbell about the rotation axis is"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "21. A flywheel used to prepare earthenware pots is set into rotation at",
+    "output": "100 r±. It is in the form of a disc of mass 10 kg and radius 0.4 m. A lump of clay (to be taken equivalent to a particle) of mass 1.6 kg falls on it and adheres to it at a certain distance x from the centre. Calculate x if the wheel now rotates at 80 r±. [Ans: x = (1√8)m = 0.35 m] Answer: Data : f1 = 60 r± = 60/60 rot/s = 1 rot/s, f2 = 30 r± = 30/60 rot/s = (12) rot/s, ∆E = — 100 J (i) This gives the MI of the flywheel about the given axis. (ii) Angular momentum, L = Iω = I(2πf) = 2πIf The change in angular momentum, ∆L = L2 – L1 = 2πI(f2 – f1) = 2 × 3.142 × 6.753( (12) – 1) = -3.142 × 6.753 = -21.22 kg.m2/s"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "22. Starting from rest, an object rolls down along an incline that rises by",
+    "output": "3 units in every 5 units (along it). The object gains a speed of (√10) m/s as it travels a distance of (53)m along the incline. What can be the possible shape/s of the object? [Ans: (K²R²) ="
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Thus, a ring or a hollow cylinder]",
+    "output": "Answer:Data : sin θ = ("
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Attach a body of suitable mass to a spring balance so that it stretches by about half its capacity. Now whirl the spring balance so that the body performs a horizontal circular motion. You will notice that the balance now reads more for the same body. Can you explain this ?",
+    "output": "Answer:Due to outward centrifugal force. Use your brain power (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Obtain the condition for not toppling (rollover) for a four-wheeler. On what factors does it depend and how?",
+    "output": "Answer:Consider a car of mass m taking a turn of radius r along a level road. As seen from an inertial frame of reference, the forces acting on the car are : the lateral limiting force of static friction (over→f_mathrms) on the wheels-acting along the axis of the wheels and towards the centre of the circular path- which provides the necessary centripetal force, the weight (m vecg) acting vertically downwards at the centre of gravity (C.G.) the normal reaction (vecN) of the road on the wheels, acting vertically upwards effectively at the C.G. Since maximum centripetal force = limiting force of static friction, mar = (m v^"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Think about the normal reactions. Where are those and how much are those?",
+    "output": "Answer:In a simplified vehicle model, we assume the normal reactions to act equally on all the four wheels, i.e., mg/"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. What is the recommendations on loading a vehicle for not toppling easily?",
+    "output": "Answer:Overloading (or improper load distribution) or any load placed on the roof raises a vehicle&#"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. If a vehicle topples while turning, which wheels leave the contact with the road? Why?",
+    "output": "Answer:Inner wheels. Consider a car of mass m taking a turn of radius r along a level road. As seen from an inertial frame of reference, the forces acting on the car are : the lateral limiting force of static friction (over→f_mathrms) on the wheels-acting along the axis of the wheels and towards the centre of the circular path- which provides the necessary centripetal force, the weight (m vecg) acting vertically downwards at the centre of gravity (C.G.) the normal reaction (vecN) of the road on the wheels, acting vertically upwards effectively at the C.G. Since maximum centripetal force = limiting force of static friction, mar = (m v^"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "5. How does [tendency to] toppling affect the tyres?",
+    "output": "Answer:While turning, shear stress acts on the tyre-road contact area. Due to this, the treads and side wall of a tyre deform. Apart from less control, this contributes to increased and uneven wear of the shoulder of the tyres. Each wheel is placed under a small inward angle (called camber) in the vertical plane. Under severe lateral acceleration, when the car rolls, the camber angle ensures the complete contact area is in contact with the road and the wheels are now in vertical position. This improves the cornering behavior of the car. Improperly inflated and worn tyres can be especially dangerous because they inhibit the ability to maintain vehicle control. Worn tires may cause the vehicle to slide sideways on wet or slippery pavement, sliding the vehicle off the road and increasing its risk of rolling over."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "6. What is the recommendation for this?",
+    "output": "Answer:Because of uneven wear of the tyre shoulders, tyres should be rotated every"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "7. Determine the angle to be made with the vertical by a two-wheeler while turning on a horizontal track?",
+    "output": "Answer:When a bicyclist takes a turn along an unbanked road, the force of friction (vecf_mathrms) provides the centripetal force; the normal reaction of the road (vecN) is vertically up. If the bicyclist does not lean inward, there will be an unbalanced outward torque about the centre of gravity, fs.h, due to the friction force that will topple the bicyclist outward. The bicyclist must lean inward to counteract this torque (and not to generate a centripetal force) such that the opposite inward torque of the couple formed by (vecN) and the weight (vecg), mg.a = fs.h"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "8. We have mentioned about &#",
+    "output": "8216;static friction’ between road and tyres. Why is it static friction? What about kinetic friction between road and tyres? Answer: When a car takes a turn on a level road, the point of contact of the wheel with the surface is instantaneously stationary if there is no slipπng. Hence, the lateral force on the car is the limiting force of static friction between the tyres and road. Lateral forces allow the car to turn. As long as the wheels are rolling, there is lateral force of static friction and longitudinal force of rolling friction. Longtitudinal forces, which act in the direction of motion of the car body (or in the exact opposite direction), control the acceleration or deceleration of the car and therefore the speed of the car. These are the wheel force, rolling friction, braking force and air drag. If the car skids, the friction force is kinetic friction; more importantly, the direction of the friction force then changes abruptly from lateral to that opposite the velocity of skidding and not towards the centre of the curve, so that the car cannot continue in its curved path."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "9. What do you do if your vehicle is trapped on a slippery or sandy road? What is the physics involved?",
+    "output": "Answer:Driving on a country road should be attempted only with a four-wheel drive. However, if you do get stuck in deep sand or mud, avoid unnecessary panic and temptation to drive your way out of the mud or sand because excessive sπnning of your tyres will most likely just dig you into a deeper hole. Momentum is the key to getting unstuck from sand or mud. One method is the rocking method-rocking your car backwards and forwards to gain momentum. Your best option is usually to gain traction and momentum by wedging a car mat (or sticks, leaves, gravel or rocks) in front and under your drive wheels. Once you start moving, keep the momentum going until you are on more solid terrain. Use your brain power (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. As a civil engineer, you are to construct a curved road in a ghat. In order to calculate the banking angle",
+    "output": "0, you need to decide the speed limit. How will you decide the values of speed and radius of curvature at the bend ? Answer: For Indian roads, Indian Road Congress (IRC), [IRC-73-1980, Table 2, p.4], specifies the design speed depending on the classification of roads (such as national and state highways, district roads and village roads) and terrain. It is the basic design parameter which determines further geometric design features. For the radius of curvature at a bend, IRC [ibid., Table 16, p.24] specifies the absolute minimum values based on the minimum design speed. However, on new roads, curves should be designed to have the largest practicable radius, generally more than the minimum values specified, to allow for ‘sight distance’ and ‘driver comfort’. To consider the motorist driving within the innermost travel lane, the radius used to design horizontal curves should be measured to the inside edge of the innermost travel lane, particularly for wide road-ways with sharp horizontal curvature. A civil engineer refers to banking as superelevation e;e = tan θ. IRC fixes emax = 0.07 for a non-urban road and the coefficient of lateral static friction, µ = 0.15, the friction between the vehicle tyres and the road being incredibly variable. Ignoring the product eµ, from Eq. (6) e + µ = (v²g r) (where both v and r are in SI units) = (V²127 r)(where V is in km / h and r is in metre) …. (1) The sequence of design usually goes like this : Knowing the design speed V and radius r, calculate the superelevation for 75% of design speed ignormg friction : e = ((0.75 mathrm~V)²127 r) = (V²225 r) If e < 0.07, consider this calculated value of e in subsequent calculations. If e > 0.07, then take e = emax = 0."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "07. Use Eq. (",
+    "output": "1) above to check the value of µ for emax = 0.07 at the full value of the design speed V : µ = (V²127 r) – 0.07 If µ < 0.15, then e = 0.07 is safe. Otherwise, calculate the allowable speed Va as in step 4. (V_mathrma²127 r) = e + p = 0.07 + 0.15 If Va > V, then the design speed V is adequate. If Va < V, then speed is limited to Va with appropriate warning sign. Use your brain power (Textbook Page No. 7)"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. If friction is zero, can a vehicle move on the road? Why are we not considering the friction in deriving the expression for the banking angle?",
+    "output": "Answer:Friction is necessary for any form of locomotion. Without friction, a vehicle cannot move. The banking angle for a road at a bend is calculated for optimum speed at which every vehicle can negotiate the bend without depending on friction to provide the necessary lateral centripetal force."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. What about the kinetic friction between the road and the lyres?",
+    "output": "Answer:When a car takes a turn on a level road, the point of contact of the wheel with the surface is instantaneously stationary if there is no slipπng. Hence, the lateral force on the car is the limiting force of static friction between the tyres and road. Lateral forces allow the car to turn. As long as the wheels are rolling, there is lateral force of static friction and longitudinal force of rolling friction. Longtitudinal forces, which act in the direction of motion of the car body (or in the exact opposite direction), control the acceleration or deceleration of the car and therefore the speed of the car. These are the wheel force, rolling friction, braking force and air drag. If the car skids, the friction force is kinetic friction; more importantly, the direction of the friction force then changes abruptly from lateral to that opposite the velocity of skidding and not towards the centre of the curve, so that the car cannot continue in its curved path. Use your brain power (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. What is expected to happen if one travels fast over a speed breaker? Why?",
+    "output": "Answer:The maximum speed with which a car can travel over a road surface, which is in the form of a convex arc of radius r, is (√r g) where g is the acceleration due to gravity. For a speed breaker, r is very small (of the order of"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. How does the normal force on a concave suspension bridge change when a vehicle is travelling on it with a constant speed ?",
+    "output": "Answer:At the lowest point, N-mg provides the centripetal force. Therefore, N-mg = (m v^"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. For the point P in above, we had to extend OC to Q to meet the perpendicular PQ. What will happen to the expression for I if the point P lies on OC?",
+    "output": "Answer:There will be no change in the expression for the MI (I) about the parallel axis through O. Maharashtra State Board Class"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "iii) If pressure of an ideal gas is decreased by 10% isothermally, then its volume will (A) decrease by 9% (B) increase by 9% (C) decrease by 10% (D) increase by 11.11%",
+    "output": "(D) increase by 11.11% [Use the formula P1V1 = P2V"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Choose the correct option. i) In an ideal gas, the molecules possess (A) only kinetic energy (B) both kinetic energy and potential energy (C) only potential energy (D) neither kinetic energy nor potential energy",
+    "output": "Answer:(A) only kinetic energy ii) The mean free path λ of molecules is given by (A) (√frac"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. It gives (V_",
+    "output": "2V₁) = (10.9) = 1.111 ∴ (V₂-V₁V₁) = 0.1111, i.e., 11.11% iv) If a = 0.72 and r = 0.24, then the value of tr is (A) 0.02 (B) 0.04 (C) 0.4 (D) 0.2 Answer: (B) 0.04 v) The ratio of emissive power of a perfect blackbody at 1327°C and 527°C is (A) 4 : 1 (B) 16 : 1 (C) 2 : 1 (D) 8 : 1 Answer: (B) 16 : 1"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Answer in brief. i) What will happen to the mean square speed of the molecules of a gas if the temperature of the gas increases?",
+    "output": "Answer:If the temperature of a gas increases, the mean square speed of the molecules of the gas will increase in the same proportion. [Note: (overlinev^"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. When a gas is heated its temperature increases. Explain this phenomenon based on kinetic theory of gases.",
+    "output": "Answer:Molecules of a gas are in a state of continuous random motion. They possess kinetic energy. When a gas is heated, there is increase in the average kinetic energy per molecule of the gas. Hence, its temperature increases (the average kinetic energy per molecule being proportional to the absolute temperature of the gas)."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. Explain, on the basis of kinetic theory, how the pressure of gas changes if its volume is reduced at constant temperature.",
+    "output": "Answer:The average kinetic energy per molecule of a gas is constant at constant temperature. When the volume of a gas is reduced at constant temperature, the number of collisions of gas molecules per unit time with the walls of the container increases. This increases the momentum transferred per unit time per unit area, i.e., the force exerted by the gas on the walls. Hence, the pressure of the gas increases."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "5. Mention the conditions under which a real gas obeys ideal gas equation.",
+    "output": "Answer:A real gas obeys ideal gas equation when temperature is vey high and pressure is very low. [ Note : Under these conditions, the density of a gas is very low. Hence, the molecules, on an average, are far away from each other. The intermolecular forces are then not of much consequence. ]"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "6. State the law of equipartition of energy and hence calculate molar specific heat of mono-and di-atomic gases at constant volume and constant pressure.",
+    "output": "Answer:Law of equipartition of energy : For a gas in thermal equilibrium at absolute temperature T, the average energy for a molecule, associated with each quadratic term (each ° of freedom), is ("
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "7. What is a perfect blackbody ? How can it be realized in practice?",
+    "output": "Answer:A perfect blackbody or simply a blackbody is defined as a body which absorbs all the radiant energy incident on it. Fery designed a spherical blackbody which consists of a hollow double-walled, metallic sphere provided with a tiny hole or aperture on one side, in below figure. The inside wall of the sphere is blackened with lampblack while the outside is silver-plated. The space between the two walls is evacuated to minimize heat loss by conduction and convection. Any radiation entering the sphere through the aperture suffers multiple reflections where about"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "8. State (i) Stefan-Boltmann law and (ii) Wein’s displacement law.",
+    "output": "Answer:(i) The Stefan-Boltzmann law : The rate of emission of radiant energy per unit area or the power radiated per unit area of a perfect blackbody is directly proportional to the fourth power of its absolute temperature. OR The quantity of radiant energy emitted by a perfect blackbody per unit time per unit surface area of the body is directly proportional to the fourth power of its absolute temperature. (ii) Wien’s displacement law : The wavelength for which the emissive power of a blackbody is maximum, is inversely proportional to the absolute temperature of the blackbody. OR For a blackbody at an absolute temperature T, the product of T and the wavelength λm corresponding to the maximum radiation of energy is a constant. λmT = b, a constant. [Notes: ("
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "9. Explain spectral distribution of blackbody radiation.",
+    "output": "Answer:Blackbody radiation is the electromagnetic radiation emitted by a blackbody by virtue of its temperature. It extends over the whole range of wavelengths of electromagnetic waves. The distribution of energy over this entire range as a function of wavelength or frequency is known as the spectral distribution of blackbody radiation or blackbody radiation spectrum. If Rλ is the emissive power of a blackbody in the wavelength range λ and λ + dλ, the energy it emits per unit area per unit time in this wavelength range depends on its absolute temperature T, the wavelength λ and the size of the interval dλ."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "10. State and prove Kirchoff’s law of heat radiation.",
+    "output": "Answer:Kirchhoff’s law of heat radiation : At a given temperature, the ratio of the emissive power to the coefficient of absorption of a body is equal to the emissive power of a perfect blackbody at the same temperature for all wavelengths. OR For a body emitting and absorbing thermal radiation in thermal equilibrium, the emissivity is equal to its absorptivity. Theoretical proof: Consider the following thought experiment: An ordinary body A and a perfect black body B are enclosed in an athermanous enclosure as shown in below figure. According to Prevost’s theory of heat exchanges, there will be a continuous exchange of radiant energy between each body and its surroundings. Hence, the two bodies, after some time, will attain the same temperature as that of the enclosure. Let a and e be the coefficients of absorption and emission respectively, of body A. Let R and Rb be the emissive powers of bodies A and B, respectively. ; Suppose that Q is the quantity of radiant energy incident on each body per unit time per unit surface area of the body. Body A will absorb the quantity aQ per unit time per unit surface area and radiate the quantity R per unit time per unit surface area. Since there is no change in its temperature, we must have, aQ = R … ("
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "11. Calculate the ratio of mean square speeds of molecules of a gas at",
+    "output": "30 K and 120 K. [Ans: 1:4] Answer: Data : T1 = 30 K, T2 = 120 K This is the required ratio."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "12. Two vessels A and B are filled with same gas where volume, temperature and pressure in vessel A is twice the volume, temperature and pressure in vessel B. Calculate the ratio of number of molecules of gas in vessel A to that in vessel B. [Ans:",
+    "output": "2:1] Answer: Data : VA = 2VB, TA = 2TB, PA = 2PB PV = NkBT This is the required ratio."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "13. A gas in a cylinder is at pressure P. If the masses of all the molecules are made one third of their original value and their speeds are doubled, then find the resultant pressure. [Ans:",
+    "output": "4/3 P] Answer: Data : m2 = m1/3, vrms 2 = 2vrms 1 as the speeds of all molecules are doubled This is the resultant pressure."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "14. Show that rms velocity of an oxygen molecule is (√",
+    "output": "2) × that of a sulfur dioxide molecule at S.T.P. Answer:"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "15. At what temperature will oxygen molecules have same rms speed as helium molecules at S.T.P.? (Molecular masses of oxygen and helium are",
+    "output": "32 and 4 respectively) [Ans: 2184 K] Answer: Data : T2 = 273 K, M01 (oxygen) = 32 × 10-3 kg/mol, M02 (hydrogen) = 4 × 10– 3 kg/mol The rms speed of oxygen molecules, v1 = (√frac3 R T₁M₀₁) and that of helium molecules, v2 = (√frac3 R T₂M₀₂) When v1 = v2,"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "16. Compare the rms speed of hydrogen molecules at",
+    "output": "127 ºC with rms speed of oxygen molecules at 27 ºC given that molecular masses of hydrogen and oxygen are 2 and 32 respectively. [Ans: 8: 3] Answer: Data : M01 (hydrogen) = 2 g/mol, M02 (oxygen) = 32 g/mol, T1 (hydrogen) = 273 + 127 = 400 K, T2 (oxygen) = 273 + 27 = 300 K The rms speed, vrms = (√(3 R T/M₀₎), where M0 denotes the molar mass"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "17. Find kinetic energy of",
+    "output": "5000 cc of a gas at S.T.P. given standard pressure is 1.013 × 105 N/m2. [Ans: 7.598 × 102 J] Answer: Data : P = 1.013 × 105 N/m2, V = 5 litres = 5 × 10-3 m3 E = (32)PV = (32)(1.013 × 105 N/m2) (5 × 10-3 m3) = 7.5 × 1.013 × 102 J = 7.597 × 102 J This is the required energy."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "18. Calculate the average molecular kinetic energy (i) per kmol (ii) per kg (iii) per molecule of oxygen at",
+    "output": "127 ºC, given that molecular weight of oxygen is 32, R is 8.31 J mol-1 K-1 and Avogadro’s number NA is 6.02 × 1023 molecules mol-1. [Ans: 4.986 × 106J, 1.558 × 102J 8.282 × 10-21 J] Answer: Data : T = 273 +127 = 400 K, molecular weight = 32 ∴ molar mass = 32 kg/kmol, R = 8.31 Jmol-1 K-1, NA = 6.02 × 1023 molecules mol-1 (i) The average molecular kinetic energy per kmol of oxygen = the average kinetic energy per mol of oxygen × 1000 = (32)RT × 1000 = (32) (8.31) (400) (103) (mathrmJmathrmkmol) = (600)(8.31)(103) = 4.986 × 106 J/kmol (ii) The average molecular kinetic energy per kg of (iii) The average molecular kinetic energy per molecule of oxygen"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "19. Calculate the energy radiated in one minute by a blackbody of surface area",
+    "output": "100 cm2 when it is maintained at 227ºC. (Take Stefen’s constant σ = 5.67 × 10-8J m-2s-1K-4) [Ans: 2126.25 J] Answer: Data : t = one minute = 60 s, A = 100 cm2 = 100 × 10-4 m2 = 10-2 m2, T = 273 + 227 = 500 K, σ = 5.67 × 10-8 W/m2.K4 The energy radiated, Q = σAT4t = (5.67 × 10-8)(10-2)(500)4(60) J = (5.67)(625)(60)(10-2)J = 2126 J"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "20. Energy is emitted from a hole in an electric furnace at the rate of",
+    "output": "20 W, when the temperature of the furnace is 727 ºC. What is the area of the hole? (Take Stefan’s constant σ to be 5.7 × 10-8 J s-1 m-2 K-4) [Ans: 3.509 × 10-4m2] Answer: Data : (Qt) = 20 W, T = 273 + 727 = 1000 K"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "21. The emissive power of a sphere of area",
+    "output": "0.02 m2 is 0.5 kcal s-1 m-"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. What is the amount of heat radiated by the spherical surface in",
+    "output": "20 second? [Ans: 0.2 kcal] Answer: Data : R = 0.5 kcal s-1m-2, A = 0.02 m2, t = 20 s Q = RAt = (0.5) (0.02) (20) = 0.2 kcal This is the required quantity."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "22. Compare the rates of emission of heat by a blackbody maintained at",
+    "output": "727ºC and at 227ºC, if the black bodies are surrounded by an enclosure (black) at 27ºC. What would be the ratio of their rates of loss of heat ? [Ans: 18.23:1] Answer: Data : T1 = 273 + 727 = 1000 K, T2 = 273 + 227 = 500 K, T0 = 273 + 27 = 300 K. (i) The rate of emission of heat, (d Qd t) = σAT"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "23. Earth’s mean temperature can be assumed to be",
+    "output": "280 K. How will the curve of blackbody radiation look like for this temperature? Find out λmax. In which part of the electromagnetic spectrum, does this value lie? (Take Wien’s constant b = 2.897 × 10-3 m K) [Ans: 1.035 × 10-5m, infrared region] Answer: Data : T = 280 K, Wien’s constant b = 2.897 × 10-3 m.K λmaxT = b This value lies in the infrared region of the electromagnetic spectrum. The nature of the curve of blackbody radiation will be the same as shown in above, but the maximum will occur at 1.035 × 10-5 m."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "24. A small-blackened solid copper sphere of radius",
+    "output": "2.5 cm is placed in an evacuated chamber. The temperature of the chamber is maintained at 100 ºC. At what rate energy must be supplied to the copper sphere to maintain its temperature at 110 ºC? (Take Stefan’s constant σ to be 5.670 × 10-8 J s-1 m-2 K-4 , π = 3.1416 and treat the sphere as a blackbody.) [Ans: 0.9624 W] Answer: Data : r = 2.5 cm = 2.5 × 10-2 m, T0 = 273 + 100 = 373 K, T = 273 + 110 = 383 K, σ = 5.67 × 10-8 J s-1 m-2 k-4 The rate at which energy must be supplied σA(T4 — T04) = σ 4πr2(T4 – T04) = (5.67 × 10-8) (4) (3.142) (2.5 × 10-2)2 (3834 – 3734) = (5.67) (4) (3.142) (6.25) (3.834 – 3.734) × 10-4 = 0.9624W"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "25. Find the temperature of a blackbody if its spectrum has a peak at (a) λmax =",
+    "output": "700 nm (visible), (b) λmax = 3 cm (microwave region) and (c) λmax = 3 m (short radio waves) (Take Wien’s constant b = 2.897 × 10-3 m K). [Ans: (a) 4138 K, (b) 0.09657 K, (c) 0.9657 × 10-3 K] Answer: Data:(a) λmax = 700nm=700 × 10-9m, (b) λmax = 3cm = 3 × 10-2 m, (c) λmax = 3 m, b = 2.897 × 10-3 m.K λmaxT = b 12th Physics Digest Chapter 3 Kinetic Theory of Gases and Radiation Intext Questions and Answers Remember This (Textbook Page No. 60)"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Distribution of speeds of molecules of a gas.",
+    "output": "Answer:Maxwell-Boltzmann distribution of molecular speeds is a relation that describes the distribution of speeds among the molecules of a gas at a given temperature. The root-mean-square speed vrms gives us a general idea of molecular speeds in a gas at a given temperature. However, not all molecules have the same speed. At any instant, some molecules move slowly and some very raπdly. In classical physics, molecular speeds may be considered to cover the range from"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. If a hot body and a cold body are kept in vacuum, separated from each other, can they exchange heat ? If yes, which mode of transfer of heat causes change in their temperatures ? If not, give reasons.",
+    "output": "Answer:Yes. Radiation. Remember This (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Can a perfect blackbody be realized in practice ?",
+    "output": "Answer:For almost all practical purposes, Fery’s blackbody is very close to a perfect blackbody."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Are good absorbers also good emitters ?",
+    "output": "Answer:Yes. Use your brain power (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Why are the bottom of cooking utensils blackened and tops polished ?",
+    "output": "Answer:The bottoms of cooking utensils are blackened to increase the rate of absorption of radiant energy and tops are polished to increase the reflection of radiation."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. A car is left in sunlight with all its windows closed on a hot day. After some time it is observed that the inside of the car is warmer than outside air. Why ?",
+    "output": "Answer:The air inside the car is trapped and hence is a bad conductor of heat."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. If surfaces of all bodies are continuously emitting radiant energy, why do they not cool down to",
+    "output": "0 K ? Answer: Bodies absorb radiant energy from the surroundings. Can you tell? (Textbook Page No. 71) Question 1. λmax the wavelength corresponding to maximum intensity for the Sun is in the blue-green region of visible spectrum. Why does the Sun then appear yellow to us ? Answer: The colour that we perceive depends upon a number of factors such as absorption and scattering by atmosphere (which in turn depends upon the composition of air) and spectral response of the human eye. The colour may be yellow/orange/ red/white. Maharashtra State Board Class 12 Physics Textbook Solutions Rotational Dynamics Class 12 Exercise Solutions Mechanical Properties of Fluids Class 12 Exercise Solutions Kinetic Theory of Gases and Radiation Class 12 Exercise Solutions Thermodynamics Class 12 Exercise Solutions Oscillations Class 12 Exercise Solutions Superposition of Waves Class 12 Exercise Solutions Wave Optics Class 12 Exercise Solutions Electrostatics Class 12 Exercise Solutions Current Electricity Class 12 Exercise Solutions Magnetic Fields due to Electric Current Class 12 Exercise Solutions Magnetic Materials Class 12 Exercise Solutions Electromagnetic Induction Class 12 Exercise Solutions AC Circuits Class 12 Exercise Solutions Dual Nature of Radiation and Matter Class 12 Exercise Solutions Structure of Atoms and Nuclei Class 12 Exercise Solutions Semiconductor Devices Class 12 Exercise Solutions Categories Class 12 12th Physics Chapter 2 Exercise Mechanical Properties of Fluids Solutions Maharashtra Board12th Physics Chapter 4 Exercise Thermodynamics Solutions Maharashtra Board Leave a Comment Cancel replyYou must be logged in to post a comment. Search for: Recent Posts Class 6 Marathi Balbharati Chapter 22 Question Answer वडिलांस पत्र Class 6 Marathi Balbharati Chapter 21 Question Answer या काळाच्या भाळावरती (कविता) Class 6 Marathi Balbharati Chapter 20 Question Answer ओळख थोरांची Class 6 Marathi Balbharati Chapter 19 Question Answer मले बाजाराला जायाचं बाई Class 6 Marathi Balbharati Chapter 18 Question Answer बहुमोल जीवन (कविता) Class 6 Marathi Balbharati Chapter 17 Question Answer दुखणं बोटभर Class 6 Marathi Balbharati Chapter 16 Question Answer सफर मेट्रोची Class 6 Marathi Balbharati Chapter 15 Question Answer बालसभा Class 6 Marathi Balbharati Chapter 14 Question Answer आतां उजाडेल (कविता) Class 6 Marathi Balbharati Chapter 13 Question Answer आपली सुरक्षा, आपले उपाय Class 6 Marathi Balbharati Chapter 12 Question Answer मला मोठं व्हायचंय Maharashtra State Board Class 12 Solutions Maharashtra State Board Class 11 Solutions Maharashtra State Board Class 10 Solutions Calculadora de Porcentaje Maharashtra State Board Class 9 Solutions Maharashtra State Board Class 8 Solutions Maharashtra State Board Class 7 Solutions Maharashtra State Board Class 6 Solutions Maharashtra State Board Class 5 Solutions About Us Privacy Policy Disclaimer Contact Us Copyright © 2025 Maharashtra Board Solutions"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "ii) Which of the following is an example of the first law of thermodynamics? (A) The specific heat of an object explains how easily it changes temperatures. (B) While melting, an ice cube remains at the same temperature. (C) When a refrigerator is unplugged, everything inside of it returns to room temperature after some time. (D) After falling down the hill, a ball’s kinetic energy plus heat energy equals the initial potential energy.",
+    "output": "(B) While melting, an ice cube remains at the same temperature. [Here, ∆u = 0, W = Q] (C) When a refrigerator is unplugged, everything inside of it returns to room temperature after some time. (D) After falling down the hill, a ball’s kinetic energy plus heat energy equals the initial potential energy."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "iii) Efficiency of a Carnot engine is large when (A) TH is large (B) TC is low (C) TH – TC is large (D) TH – TC is small",
+    "output": "(A) TH is large (B) TC is low (C) TH – TC is large [η = (T_mathrmH-T_mathrmcT_mathrmH) = 1 – (T_mathrmcT_mathrmH)]"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "iv) The second law of thermodynamics deals with transfer of: (A) work done (B) energy (C) momentum (D) mass",
+    "output": "(B) energy"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "v) During refrigeration cycle, heat is rejected by the refrigerant in the : (A) condenser (B) cold chamber (C) evaporator (D) hot chamber",
+    "output": "closed tube[See the textbook]"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Answer in brief. i) A gas contained in a cylinder surrounded by a thick layer of insulating material is quickly compressed. (a) Has there been a transfer of heat? (b) Has work been done?",
+    "output": "Answer:(a) There is no transfer of heat. (b) The work is done on the gas. ii) Give an example of some familiar process in which no heat is added to or removed form a system, but the temperature of the system changes."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. Answer the following questions. i) A mixture of hydrogen and oxygen is enclosed in a rigid insulting cylinder. It is ignited by a spark. The temperature and the pressure both increase considerably. Assume that the energy supplied by the spark is negligible, what conclusions may be drawn by application of the first law of thermodynamics?",
+    "output": "Answer:The internal energy of a system is the sum of potential energy and kinetic energy of all the constituents of the system. In the example stated above, conversion of potential energy into kinetic energy is responsible for a considerable rise in pressure and temperature of the mixture of hydrogen and oxygen ignited by the spark. ii) A resistor held in running water carries electric current. Treat the resistor as the system (a) Does heat flow into the resistor? (b) Is there a flow of heat into the water? (c) Is any work done? (d) Assuming the state of resistance to remain unchanged, apply the first law of thermodynamics to this process."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. A gas contained in a cylinder fitted with a frictionless πston expands against a constant external pressure of",
+    "output": "1 atm from a volume of 5 litres to a volume of 10 litres. In doing so it absorbs 400 J of thermal energy from its surroundings. Determine the change in internal energy of system. [Ans: -106.5 J] Answer: Data : P = 1 atm = 1.013 × 105 Pa, V1 = 5 litres = 5 × 10-3 m3 V2 = 10 litres = 10 × 10-3 m3, Q = 400J. The work done by the system (gas in this case) on its surroundings, W = P(V2 – V1) = (1.013 × 105 Pa) (10 × 10-3 m3 – 5 × 10-3 m3) = 1.013 (5 × 102)J = 5.065 × 102J The change in the internal energy of the system, ∆u = Q – W = 400J – 506.5J = -106.5J The minus sign shows that there is a decrease in the internal energy of the system."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "5. A system releases",
+    "output": "130 kJ of heat while 109 kJ of work is done on the system. Calculate the change in internal energy. [Ans: ∆U = 21 kJ] Answer: Data : Q = -130kj, W= – 109kJ ∆u = Q – W = – 130kJ – ( – 109kJ) = (-130 + 104) kJ = – 26 kj. This is the change (decrease) in the internal energy."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "6. Efficiency of a Carnot cycle is",
+    "output": "75%. If temperature of the hot reservoir is 727ºC, calculate the temperature of the cold reservoir. [Ans: 23ºC] Data : η = 75% = 0.75, TH = (273 + 727) K = 1000 K η = 1 – (T_mathrmCT_mathrmH) ∴ (T_mathrmCT_mathrmH) = 1 – η ∴ TC = TC(1 – η) = 1000 K (1 – 0.75) = 250K = (250 – 273)°C = -23 °C This is the temperature of the cold reservoir."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "7. A Carnot refrigerator operates between",
+    "output": "250K and 300K. Calculate its coefficient of performance. [Ans: 5] Answer: Data : TC = 250 K, TH = 300 K K = (T_mathrmCT_mathrmH-T_mathrmC) = (250 mathrm~K300 mathrm~K-250 mathrm~K) = (25050) = 5 This is the coefficient of performance of the refrigerator."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "8. An ideal gas is taken through an isothermal process. If it does",
+    "output": "2000 J of work on its environment, how much heat is added to it? [Ans: 2000J] Answer: Data : W = 2000 J, isothermal process In this case, the change in the internal energy of the gas, ∆u, is zero as the gas is taken through an isothermal process. Hence, the heat added to it, Q = ∆ u + W = 0 + W = 200J"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "9. An ideal monatomic gas is adiabatically compressed so that its final temperature is twice its initial temperature. What is the ratio of the final pressure to its initial pressure? [Ans:",
+    "output": "5.656] Answer: Data : Tf = 2Ti, monatomic gas ∴ γ = 5/3 This is the ratio of the final pressure (Pf) to the initial pressure (Pi)."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "10. A hypothetical thermodynamic cycle is shown in the figure. Calculate the work done in",
+    "output": "25 cycles. [Ans: 7.855 × 104 J] Answer: 25 cycles The work done in one cycle, (oint)PdV = πab = (3.142) (2 × 10-3 m3) (5 × 105 Pa) = 3.142 × 103J Hence, the work done in 25 cycles = (25) (3.142 × 103 J) = 7.855 × 104J"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "11. The figure shows the V-T diagram for one cycle of a hypothetical heat engine which uses the ideal gas. Draw the p-V diagram and P-V diagram of the system. [Ans: (a)] [Ans: (b)]",
+    "output": "Answer:(a) P-V diagram (Schematic) ab: isobaric process, bc : isothermal process, cd : isobaric process, da : isothermal process (P_mathrma V_mathrmaT_mathrma) = (P_mathrmb V_mathrmbT_mathrmb) = (P_mathrmc V_mathrmcT_mathrmc) = (P_mathrmd V_mathrmdT_mathrmd) = nR (b) P—T diagram (Schematic)"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "12. A system is taken to its final state from initial state in hypothetical paths as shown figure. Calculate the work done in each case. [Ans: AB =",
+    "output": "2.4 × 106 J, CD = -8 × 105 J, BC and DA zero, because constant volume change] Answer: Data: PA = PB = 6 × 105 Pa, PC = PD = 2 × 105 Pa VA = VD = 2 L, VB = VC6 L, 1 L = 10-3m3 (i) The work done along the path A → B (isobaric process), WAB = PA (VB – VA) = (6 × 105 Pa)(6 – 2)(10-3 m3) = 2.4 × 103 J (ii) WBC = zero as the process is isochoric (V = constant). (iii) The work done along the path C → D (isobaric process), WCD = PC (VD – VC) = (2 × 105 Pa) (2 – 6) (10-3m3) = -8 × 102J (iv) WDA = zero as V = constant. 12th Physics Digest Chapter 4 Thermodynamics Intext Questions and Answers Can you tell? (Textbook Page No. 76)"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Why is it that different objects kept on a table at room temperature do not exchange heat with the table ?",
+    "output": "Answer:The objects do exchange heat with the table but there is no net transfer of energy (heat) as the objects and the table are at the same temperature. Can you tell? (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Why is it necessary to make a physical contact between a thermocouple and the object for measuring its temperature ?",
+    "output": "Answer:For heat transfer to develop thermoemf. Can you tell? (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Can you explain the thermodynamics involved in cooking food using a pressure cooker ?",
+    "output": "Answer:Basically, heat is supplied by the burning fuel causing increase in the internal energy of the food (system), and the system does some work on its surroundings. In the absence of any data about the components of food and their thermal and chemical properties, we cannot evaluate changes in internal energy and work done. Use your brain power (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Verify that the area under the P-V curve has dimensions of work.",
+    "output": "Answer:Area under the P-V curve is (int_V_mathrmi^V_mathrmf P d V), where P is the pressure and V is the volume. Use your brain power (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Show that the isothermal work may also be expressed as W = nRT ln(left(fracboldsymbolP_mathrmiboldsymbolP_mathrmfright)),",
+    "output": "Answer:In the usual notation, W = nRT In (V_mathrmfV_mathrmi) and Pi Vi = Pf Vf = nRT in an isothermal process ∴ (V_mathrmfV_mathrmi) = (P_mathrmiP_mathrmf) and W = nRT ln (P_mathrmiP_mathrmf) Use your brain power (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Why is the P-V curve for an adiabatic process steeper than that for an isothermal process ?",
+    "output": "Answer:Adiabatic process : PVγ = constant ∴ VγdP + γPVγ-"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Explain formation of clouds at high altitude.",
+    "output": "Answer:As the temperature of the earth increases due to absorption of solar radiation, water from rivers, lakes, oceans, etc. evaporates and rises to high altitude. Water vapour forms clouds as water molecules come together under appropriate conditions. Clouds are condensed water vapour and are of various type, names as cumulus clouds, nimbostratus clouds, stratus clouds and high-flying cirrus clouds. Can you tell? (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. How would you interpret Eq.",
+    "output": "4.21 (Q = W) for a cyclic process ? Answer: It means ∆ u = 0 for a cyclic process as the system returns to its initial state."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. An engine works at",
+    "output": "5000 r±, and it performs 1000 J of work in one cycle. If the engine runs for 10 min, how much total work is done by the engine ? Answer: The total work done by the engine = (1000 J/cycle) (5000 cycles/min) (10 min) = 5 × 107 J. Do you know? (Textbook Page No. 101)"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Capacity of an air conditioner is expressed in tonne. Do you know why?",
+    "output": "Answer:Before refrigerator and AC were invented, cooling was done by using blocks of ice. When cooling machines were invented, their capacity was expressed in terms of the equivalent amount of ice melted in a day ("
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Suggest a practical way to increase the efficiency of a heat engine.",
+    "output": "Answer:The efficiency of a heat engine can be increased by choosing the hot reservoir at very high temperature and cold reservoir at very low temperature. Maharashtra State Board Class"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "ii) A body of mass 1 kg is performing linear S.H.M. Its displacement x (cm) at t (second) is given by x = 6 sin (100t + π/4). Maximum kinetic energy of the body is (A) 36 J (B) 9 J (C) 27 J (D) 18 J",
+    "output": "(D) 18 J"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "iii) The length of second’s pendulum on the surface of earth is nearly 1 m. Its length on the surface of moon should be [Given: acceleration due to gravity (g) on moon is 1/6 th of that on the earth’s surface] (A) (16) m (B) 6 m (C) (136) m (D) (1√6) m.",
+    "output": "(A) (16) m"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "iv) Two identical springs of constant k are connected, first in series and then in parallel. A metal block of mass m is suspended from their combination. The ratio of their frequencies of vertical oscillations will be in a ratio (A) 1:4 (B) 1:2 (C) 2:1 (D) 4:1",
+    "output": "(B) 1:2"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4.",
+    "output": "Answer:(B) The force is maximum at time"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Answer in brief. i) Define linear simple harmonic motion.",
+    "output": "Answer:Definition: Linear simple harmonic motion (SHM) is defined as the linear periodic motion of a body, in which the force (or acceleration) is always directed towards the mean position and its magnitude is proportional to the displacement from the mean position. OR A particle is said to execute linear SHM if the particle undergoes oscillations about a point of stable equilibrium, subject to a linear restoring force always directed towards that point and whose magnitude is proportional to the magnitude of the displacement of the particle from that point. Examples : The vibrations of the tines (prongs) of a tuning fork, the oscillations of the needle of a sewing machine. ii) Using differential equation of linear S.H.M, obtain the expression for (a) velocity in S.H.M., (b) acceleration in S.H.M."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. Obtain the expression for the period of a magnet vibrating in a uniform magnetic field and performing S.H.M.",
+    "output": "Answer:Definition : Angular SHM is defined as the oscillatory motion of a body in which the restoring torque responsible for angular acceleration is directly proportional to the angular displacement and its direction is opposite to that of angular displacement. The differential equation of angular SHM is I (d^"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. Show that a linear S.H.M. is the projection of a U.C.M. along any of its diameter.",
+    "output": "Answer:Consider a particle which moves anticlockwise around a circular path of radius A with a constant angular speed ω. Let the path lie in the x-y plane with the centre at the origin O. The instantaneous position P of the particle is called the reference point and the circle in which the particle moves as the reference circle. The perpendicular projection of P onto the y-axis is Q. Then, as the particle travels around the circle, Q moves to-and-fro along the y-axis. Line OP makes an angle α with the x-axis at t ="
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "0. At time t, this angle becomes θ = ωt + α. The projection Q of the reference point is described by the y-coordinate, y = OQ = OP sin ∠OPQ, Since ∠OPQ = ωt + α, y = A sin(ωt + α) which is the equation of a linear SHM of amplitude A. The angular frequency w of a linear SHM can thus be understood as the angular velocity of the reference particle. The tangential velocity of the reference particle is v = ωA. Its y-component at time t is vy = ωA sin (",
+    "output": "90° – θ) = ωA cos θ ∴ vy = ωA cos (ωt + α) The centripetal acceleration of the reference particle is ar = ω2A, so that its y-component at time t is ax = ar sin ∠OPQ ∴ ax = – ω2A sin (ωt + α)"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "5. Draw graphs of displacement, velocity and acceleration against phase angle, for a particle performing linear S.H.M. from (a) the mean position (b) the positive extreme position. Deduce your conclusions from the graph.",
+    "output": "Answer:Consider a particle performing SHM, with amplitude A and period T ="
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "0. Using these expressions, the values of x, v and a at the end of every quarter of a period, starting from t =",
+    "output": "0, are tabulated below. Using the values in the table we can plot graphs of displacement, velocity and acceleration with time. Conclusions : The displacement, velocity and acceleration of a particle performing linear SHM are periodic (harmonic) functions of time. For a particle starting at the mean position, the x-t and a-t graphs are sine curves. The v-t graph is a cosine curve. There is a phase difference of (π2) radians between x and v, and between v and a. There is a phase difference of π radians between x and a. Consider a particle performing linear SHM with amplitude A and period T = 2π/ω, starting from the positive extreme position, where ω is the angular frequency. Its displacement from the mean position (x), velocity (y) and acceleration (a) at any instant (t) are x = A cos ωt = A cos (left((2 π/T) tright)) (∵ω = (2 πT)) v = -ωA sin ωt = – ωA sin (left((2 π/T) tright)) a = -ω2A cos ωt = -ω2A cos (left((2 π/T) tright)) Using these expressions, the values of x, y and a at the end of every quarter of a period, starting from t = 0, are tabulated below. Using these values, we can plot graphs showing the variation of displacement, velocity and acceleration with time. Conclusions : The displacement, velocity and acceleration of a particle performing linear SHM are periodic (harmonic) functions of time. For a particle starting from an extreme position, the x-t and a-t graphs are cosine curves; the v-t graph is a sine curve. There is a phase difference of (π2) radians between x and v, and between v and a. There is a phase difference of n radians between x and a. Explanations : (1) v-t graph : It is a sine curve, i.e., the velocity is a periodic (harmonic) function of time which repeats after a phase of 2π rad. There is a phase difference of π/2 rad between a and v. v is minimum (equal to zero) at the extreme positions (i.e., at x = ± A) and v is maximum ( = ± ωA) at the mean position (x = 0). (2) a-t graph : It is a cosine curve, i.e., the acceleration is a periodic (harmonic) function of time which repeats after a phase of 2π rad. There is a phase difference of π rad between v and a. a is minimum (equal to zero) at the mean position (x = 0) and a is maximum ( = (mp)ω2A) at the extreme positions (x = ±A)."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "6. Deduce the expressions for the kinetic energy and potential energy of a particle executing S.H.M. Hence obtain the expression for total energy of a particle performing S.H.M and show that the total energy is conserved. State the factors on which total energy depends.",
+    "output": "Answer:Consider a particle of mass m performing linear SHM with amplitude A. The restoring force acting r on the particle is F = – kx, where k is the force constant and x is the displacement of the particle from its mean position. ("
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "7. Deduce the expression for period of simple pendulum. Hence state the factors on which its period depends.",
+    "output": "Answer:An ideal simple pendulum is defined as a heavy point mass suspended from a rigid support by a weightless, inextensible and twistless string, and set oscillating under gravity through a small angle in a vertical plane. In practice, a small but heavy sphere, called the bob, is used. The distance from the point of suspension to the centre of gravity of the bob is called the length of the pendulum. Consider a simple pendulum of length L"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "8. At what distance from the mean position is the speed of a particle performing S.H.M. half its maximum speed. Given path length of S.H.M. =",
+    "output": "10 cm. [Ans: 4.33 cm] Answer: Data : v = (12)vmax, 2A = 10 cm ∴ A = 5 cm v = ω(√A²-x²) and vmax = ωA Since v = (12)vmax, This gives the required displacement."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "9. In SI units, the differential equation of an S.H.M. is (d^",
+    "output": "2 xd t²) = -36x. Find its frequency and period. Find its frequency and period. [Ans: 0.9548 Hz, 1.047 s] Answer: (d² xd t²) = -36x Comparing this equation with the general equation, (d² xd t²) = -ω2x We get, ω2 = 36 ∴ ω = 6 rad/s ω = 2πf ∴ The frequency, f = (ω2 π) = (62(3.142)) = (66.284) = 0.9548 Hz and the period, T = (1f) = (10.9548) = 1.047 s"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "10. A needle of a sewing machine moves along a path of amplitude",
+    "output": "4 cm with frequency 5 Hz. Find its acceleration (130)s after it has crossed the mean position. [Ans: 34.2 m/s2] Answer: Data : A = 4 cm = 4 × 10-2 m, f = 5Hz, t = (130)s ω = 2πf = 2π (5) = 10π rad/s Therefore, the magnitude of the acceleration, |a| = ω2x = ω2A sin ωt = (10π)2 (4 × 102) = 10π2 sin (π3) = 10 (9.872)(0.866) = 34.20 m/s2"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "11. Potential energy of a particle performing linear S.H.M is",
+    "output": "0.1 π2 x2 joule. If mass of the particle is 20 g, find the frequency of S.H.M. [Ans: 1.581 Hz] Answer: Data : PE = 0.1 π2 x2 J, m = 20 g = 2 × 10-2 kg PE = (12)mω2x2 = (12)m (4π2f2)x2 ∴ (12)m(4π2f2)x2 = 0.1 π2 x2 ∴ 2mf2 = 0.1 ∴ f2 = (120left(2 × 10⁻²right)) = 2.5 ∴ The frequency of SHM is f = (√2.5) = 1.581 Hz"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "12. The total energy of a body of mass",
+    "output": "2 kg performing S.H.M. is 40 J. Find its speed while crossing the centre of the path. [Ans: 6.324 cm/s] Answer: Data : m = 2 kg, E = 40 J The speed of the body while crossing the centre of the path (mean position) is vmax and the total energy is entirely kinetic energy."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "13. A simple pendulum performs S.H.M of period",
+    "output": "4 seconds. How much time after crossing the mean position, will the displacement of the bob be one third of its amplitude. [Ans: 0.2163 s] Answer: Data : T = 4 s, x = A/3 The displacement of a particle starting into SHM from the mean position is x = A sin ωt = A sin (2 πT) t ∴ the displacement of the bob will be one-third of its amplitude 0.2163 s after crossing the mean position."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "14. A simple pendulum of length",
+    "output": "100 cm performs S.H.M. Find the restoring force acting on its bob of mass 50 g when the displacement from the mean position is 3 cm. [Ans: 1.48 × 10-2 N] Answer: Data : L = 100 cm, m = 50 g = 5 × 10-2 kg, x = 3 cm, g = 9.8 m/s2 Restoring force, F = mg sin θ = mgθ = (5 × 10-2)(9.8)(left((3/100)right)) = 1.47 × 10-2 N"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "15. Find the change in length of a second’s pendulum, if the acceleration due to gravity at the place changes from",
+    "output": "9.75 m/s2 to 9.80 m/s2. [Ans: Decreases by 5.07 mm] Answer: Data : g1 = 9.75 m/s2, g2 = 9.8 m/s2 Length of a seconds pendulum, L = (gπ²) ∴ The length of the seconds pendulum must be increased from 0.9876 m to 0.9927 m, i.e., by 0.0051 m."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "16. At what distance from the mean position is the kinetic energy of a particle performing S.H.M. of amplitude",
+    "output": "8 cm, three × its potential energy? [Ans: 4 cm] Answer: Data : A = 8 cm, KE = 3 PE KE = (12) (A2 – x2) and PE = (12)kx2 Given, KE = 3PE. ∴ (12)k(A2 – x2) = 3(left((1/2) k x²right)) ∴ A2 – x2 = 3x2 ∴ 4x2 = A2 ∴ the required displacement is x = ± (A2) = ± (82) = ± 4 cm"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "17. A particle performing linear S.H.M. of period",
+    "output": "2π seconds about the mean position O is observed to have a speed of (b √3) m/s, when at a distance b (metre) from O. If the particle is moving away from O at that instant, find the time required by the particle, to travel a further distance b. [Ans: π/3 s] Answer: Data : T = 2πs, v = b(√3) m/s at x = b ∴ Assuming the particle starts from the mean position, its displacement is given by x = A sin ωt = 2b sin t If the particle is at x = b at t = t1, b = 2b sint1 ∴ t1 = sin-1 (12) = (π6)s Also, with period T = 2πs, on travelling a further distance b the particle will reach the positive extremity at time t2 = (π2)s. ∴ The time taken to travel a further distance b from x = b is t2 – t1 = (π2) – (π6) = (π3)s."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "18. The period of oscillation of a body of mass m",
+    "output": "1 suspended from a light spring is T. When a body of mass m2 is tied to the first body and the system is made to oscillate, the period is 2T. Compare the masses m1 and m2 [Ans: 1/3] Answer: This gives the required ratio of the masses."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "19. The displacement of an oscillating particle is given by x = asinωt + bcosωt where a, b and ω are constants. Prove that the particle performs a linear S.H.M. with amplitude A = (√a^",
+    "output": "2+b²) Answer: x = asinωt + bcosωt Let a = A cos φ and b = A sin φ, so that A2 = a2 + b2 and tan φ = (ba) ∴ x = A cos φ sin ωt + A sin φ cos ωt ∴ x = A sin (ωt + φ) which is the equation of a linear SHM with amplitude A = (√a²+b²) and phase constant φ = tan-1 (ba), as required."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "20. Two parallel S.H.M.s represented by x",
+    "output": "1 = 5sin (4πt + (π3)) cm and x2 = 3sin(4πt + π/4) cm are superposed on a particle. Determine the amplitude and epoch of the resultant S.H.M. [Ans: 7.936 cm, 54° 23′] Answer: Data: x1 = 5 sin (4πt + (π3)) = A1 sin(ωt + α), x2 = 3 sin (4πt + (π4)) = A2 sin(ωt + β) ∴ A1 = 5 cm, A2 = 3 cm, α = (π3) rad, β = (π4) rad (i) Resultant amplitude, (ii) Epoch of the resultant SHM,"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "21. A",
+    "output": "20 cm wide thin circular disc of mass 200 g is suspended to a rigid support from a thin metallic string. By holding the rim of the disc, the string is twisted through 60° and released. It now performs angular oscillations of period 1 second. Calculate the maximum restoring torque generated in the string under undamped conditions. (π3 ≈ 31) [Ans: 0.04133 N m] Answer: Data: R = 10cm = 0.1 m, M = 0.2 kg, θm = 60° = (π3) rad, T = 1 s, π3 ≈ 31 The Ml of the disc about the rotation axis (perperdicular through its centre) is I = (12)MR2 = (0.2)(0.1)2 = 10-3 kg.m2 The period of torsional oscillation, T = 2π(√(I/c)) ∴ The torsion constant, c = 4πr2 (IT²) The magnitude of the maximum restoring torque,"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "22. Find the number of oscillations performed per minute by a magnet is vibrating in the plane of a uniform field of",
+    "output": "1.6 × 10-5 Wb/m"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. The magnet has moment of inertia",
+    "output": "3 × 10-6 kgm2 and magnetic moment 3 A m2. [Ans:38.19 osc/min.] Answer: Data : B = 1.6 × 10-5 T, I = 3 × 10-6kg/m2, µ = 3 A.m2 The period of oscillation, T = 2π (√(I/mu B_mathrmh)) ∴ The frequency of oscillation is f = (12 π)(√(mu B/I)) ∴ The number of oscillations per minute = 38.19 per minute"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "23. A wooden block of mass m is kept on a πston that can perform vertical vibrations of adjustable frequency and amplitude. During vibrations, we don’t want the block to leave the contact with the πston. How much maximum frequency is possible if the amplitude of vibrations is restricted to",
+    "output": "25 cm? In this case, how much is the energy per unit mass of the block? (g ≈ π2 ≈ 10 m s-2) [Ans: nmax = 1/s, E/m = 1.25 J/kg] Answer: Data : A = 0.25 m, g = π2 = 10 m/s2 During vertical oscillations, the acceleration is maximum at the turning points at the top and bottom. The block will just lose contact with the πston when its apparent weight is zero at the top, i. e., when its acceleration is amax = g, downwards. This gives the required frequency of the πston. 12th Physics Digest Chapter 5 Oscillations of Waves Intext Questions and Answers Can you tell? (Textbook Page No. 112)"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Why is the term angular frequency (ω) used here for a linear motion ?",
+    "output": "Answer:A linear SHM is the projection of a UCM on a diameter of the circle. The angular speed co of a particle moving along this reference circle is called the angular frequency of the particle executing linear SHM. Can you tell? (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. State at which point during an oscillation the oscillator has zero velocity but positive acceleration ?",
+    "output": "Answer:At the left extreme, i.e., x = – A, so that a = – ω"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. During which part of the simple harmonic motion velocity is positive but the displacement is negative, and vice versa ?",
+    "output": "Answer:Velocity v is positive (to the right) while displacement x is negative when the particle in SHM is moving from the left extreme towards the mean position. Velocity v is negative (to the left) while displacement x is positive when the particle in SHM is moving from the right extreme towards the mean position. Can you tell? (Textbook page"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. To start a pendulum swinging, usually you pull it slightly to one side and release it. What kind of energy is transferred to the mass in doing this?",
+    "output": "Answer:On pulling the bob of a simple pendulum slightly to one side, it is raised to a slightly higher position. Thus, it gains gravitational potential energy."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Describe the energy changes that occur when the mass is released.",
+    "output": "Answer:When released, the bob oscillates in SHM in a vertical plane and the energy oscillates back and forth between kinetic and potential, going completely from one form of energy to the other as the pendulum oscillates. In the case of undamped SHM, the motion starts with all of the energy as gravitational potential energy. As the object starts to move, the gravitational potential energy is converted into kinetic energy, becoming entirely kinetic energy at the equilibrium position. The velocity becomes zero at the other extreme as the kinetic energy is completely converted back into gravitational potential energy, and this cycle then repeats."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. Is/are there any other way/ways to start the oscillations of a pendulum? Which energy is supplied in this case/cases?",
+    "output": "Answer:The bob can be given a kinetic energy at its equilibrium position or at any other position of its path. In the first case, the motion starts with all of the energy as kinetic energy. In the second case, the motion starts with partly gravitational potential energy and partly kinetic energy. Can you tell? (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Is the motion of a leaf of a tree blowing in the wind periodic ?",
+    "output": "Answer:The leaf of a tree blowing in the wind oscillates, but the motion is not periodic. Also, its displacement from the equilibrium position is not a regular function of time. Maharashtra State Board Class"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Choose the most correct answer. Question i. Molecular solids are (a) crystalline solids (b) amorphous solids (c) ionic solids (d) metallic solids",
+    "output": "Answer:(b) amorphous solids Question ii. Which of the following is n-type semiconductor? (a) Pure Si (b) Si doped with As (c) Si doped with Ga (d) Ge doped with In"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Answer the following in one or two sentences. Question i. What are the types of particles in each of the four main classes of crystalline solids?",
+    "output": "Answer:The smallest constituents or particles of various solids are atoms, ions or molecules. Question ii. Which of the three types of packing used by metals makes the most efficient use of space and which makes the least efficient use ?"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. Answer the following in brief. Question i. What are valence band and conduction band?",
+    "output": "Answer:There are two types of bands of molecular orbitals as follows : Valence band : The atomic orbitals with filled electrons from the inner shells form valence bands, where there are no free mobile electrons since they are involved in bonding. Conduction band : Atomic orbitals which are partially filled or empty on overlapπng form closely placed molecular orbitals giving conduction bands where electrons are delocalised and can conduct, heat and electricity. Question ii. Distinguish between ionic solids and molecular solids."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. Melting points High",
+    "output": "600 °C to 3000 °C Low (-272 °C to 400 °C)"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "6. Examples NaCl, CaF",
+    "output": "2 ice, benzoic acid Question iii. Calculate the number of atoms in fcc unit cell. Answer: Number of atoms in face-centred cubic (fcc) unit cell : In this unit cell, there are 8 atoms at 8 corners and 6 atoms at 6 face centres. Each corner contributes 1/8th atom to the unit cell, hence due to 8 corners, Number of atoms = ( ( 18) × 8 ="
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Each face centre contributes half of the atom to the unit cell, hence due to",
+    "output": "6 face centres, Number of atoms = ( ( 12) × 6 = 3. ∴ Total number of atoms present in fee unit cell = 1 + 3 ="
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. Hence the volume of the unit cell is equal to the volume of four atoms. Face centered unit cell Question iv. How are the spheres arranged in first layer of simple cubic close-packed structures? How are the successive layers of spheres placed above this layer ?",
+    "output": "Answer:(i) Stacking of square close packed layers : Stacking of square close packed layers In this arrangement, the two dimensional AAAA type square closed packed layers are placed one over the other in such a way that the crests of all spheres are in contact with successive layers in all directions. All spheres of different layers are perfectly aligned horizontally and vertically forming unit cells having primitive or simple cubic structure. Since all the layers are identical and if each layer is labelled as layer A, then whole three dimensional crystal lattice will be of AAAA… type. Each sphere is in contact with six surrounded spheres, hence the coordination number of each sphere is six. (ii) Stacking of two hexagonal close packed layers : A close packed three dimensional structure can be generated by arranging hexagonal close packed layers in a particular manner. In this the spheres of second layer are placed in the depression of the first layer. In this if first layer is labelled as A then second layer is labelled as B since they are aligned differently. Two layers of closed packed spheres In this, all triangular voids of the first layers are not covered by the spheres of the second layer. The triangular voids which are covered by second layer spheres generate tetrahedral void which is surrounded by four spheres. The triangular voids in one layer have above them triangular voids of successive layers. The overlapπng triangular voids from two layers together form an octahedral void which is surrounded by six spheres. Question v. Calculate the packing efficiency of metal crystal that has simple cubic structure."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. The density of iridium is",
+    "output": "22.4 g/cm"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. The unit cell of iridium is fcc. Calculate the radius of iridium atom. Molar mass of iridium is",
+    "output": "192.2 g/mol. Answer: Given : Crystal structure of iridium = fcc Molar mass of iridium = 192.2 gmol-1 Density = ρ = 22.4 gcm-3 Radius of iridium = ? In fcc structure, there are 8 Ir atoms at 8 comers and 6 Ir atoms at 6 face centres. ∴ Total number of Ir atoms = ( ( 18) × 8 + ( ( 12) × 6 = 1 + 3 = 4 Mass of Ir atom = ( (192.26.022 × 10²³) = 31.92 × 10-23 g ∴ Mass of 4 Ir atoms = 4 × 31.92 × 10-23 = 1.277 × 10-21 g ∴ Mass of unit cell = 1.277 × 10-21 g Density of unit cell = ( (text Mass of unit cell text Volume of unit cell ) 22.4 = ( (1.277 × 10⁻²¹a³) ∴ a3 = ( (1.277 × 10⁻²¹22.4) = 57 × 10-24 cm3 ∴ a = (57 × 10-24)3 = 3.848 × 10-8 cm If r is the radius of iridium atom, then for fcc structure, r = ( (a2 √2) = ( (3.848 × 10⁻⁸2 × 1.414) = 1.36 × 10-8 cm = 136 ± Radius of iridium atom = 136 ± Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "5. Aluminium crystallizes in cubic close packed structure with unit cell edge length of",
+    "output": "353.6 ±. What is the radius of Al atom ? How many unit cells are there in 1.00 cm3 of Al ? Answer: Given : Structure of Al = Cubic close packed structure = ccp structure Edge length of unit cell = a = 353.6 ± = 3.536 × 10-8 cm r = ? Number of unit cells in 1.00 cm3 of Al = ? Radius of Al atom = r = ( (a2 √2= (353.62 √2) = ( (353.62 × 1.414) = 125 ± Volume of one unit cell = a3 = (3.536 × 10-8)3 = 4.421 × 10-23 cm3 Number of unit cells = ( (1.004.421 × 10⁻²³) = 2.26 × 1022 Radius of Al atom = 125 ± Number of unit cells = 2.26 × 1022 Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "6. In an ionic crystalline solid atoms of element Y form hcp lattice. The atoms of element X occupy one third of tetrahedral voids. What is the formula of the compound?",
+    "output": "Answer:In the given hcp lattice, Y atoms are present at"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "7. How are tetrahedral and octahedral voids formed?",
+    "output": "Answer:Tetrahedral void : The vacant space or void among four constituent particles having tetrahedral arrangement in the crystal lattice is called tetrahedral void. The arrangement of four spheres around the void is tetrahedral. A tetrahedral void is formed when a triangular void made by three coplanar spheres is in contact with fourth sphere above or below it. Octahedral void : The vacant space or void at the centre of six spheres (or atoms) which are placed octahedrally is called octahedral void. Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "8. Third layer of spheres is added to second layer so as to form hcp or ccp structure. What is the difference between the addition of third layer to form these hexagonal close-packed structures?",
+    "output": "Answer:In the formation of hexagonal closed-packed (hcp) structure, the first one dimensional row shows depressions between neighbouring atoms. When a second row is arranged so that spheres fit in these depressions then a staggered arrangement is obtained. If the first row is A then the second row is B. When third row is placed in staggered manner in contact with second row then A type arrangement is obtained. Similarly, the spheres in fourth row can be arranged as B type layer. This results in ABAB… type setting of the layers. This gives hexagonal close packing (hcp) structure. Hexagonal close packing (hcp) Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "9. An element with molar mass",
+    "output": "27 g/mol forms cubic unit cell with edge length of 405 ±. If density of the element is 2.7 g/cm3, what is the nature of cubic unit cell ? (fcc or ccp) Answer: Given : Molar mass = M = 27 g mol-1 Nature of crystal = cubic unit cell Edge length = a = 405 ± = 4.05 × 10-8 cm Density = ρ = 2.7 g cm-3 Nature of unit cell = ? = 3.997 ≅ 4 Hence the nature of unit cell = face-centred cubic unit cell Radius of Al atom = 125 ± The nature of cubic unit cell is fcc. Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "10. An element has a bcc structure with unit cell edge length of",
+    "output": "288 ±. How many unit cells and number of atoms are present in 200 g of the element? (1.16 × 1024, 2.32 × 1024) Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "11. Distinguish with the help of diagrams metal conductors, insulators and semiconductors from each other.",
+    "output": "Answer:Conductor: A substance which conducts heat and electricity to a greater extent is called conductor. In this, conduction bands and valence bands overlap or are very closely spaced. There is no energy difference or very less energy difference between valence bands and conduction bands. There are free electrons in the conduction bands. The conductance decreases with the increase in temperature. E.g., Metals, alloys. The conducting properties can’t be improved by adding third substance. Insulator: A substance which cannot conduct heat and electricity under any conditions is called insulator. In this, conduction bands and valence bands are far apart. The energy difference between conduction bands and valence bands is very large. There are no free electrons in the conduction bands and electrons can’t be excited from valence bands to conduction bands due to large energy difference. No effect of temperature on conducting properties. E.g., Wood, rubber, plastics. No effect of addition of any substance. Semiconductor: A substance that has poor electrical conductance at low temperature but higher conductance at higher temperature is called semiconductor. In this, conduction bands and valence bands are spaced closely. The energy difference between conduction bands and valence bands is small. The electrons can be easily excited from valence bands to conduction bands by heating. Conductance increases with the increase in temperature. E.g., Si, Ge By doπng, conducting properties improve. E.g. n-type, p-type semiconductors. Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "12. What are n-type semiconductors? Why is the conductivity of doped n-type semiconductor higher than that of pure semiconductor ? Explain with diagram.",
+    "output": "Answer:n-type semiconductor: n-type semiconductor contains increased number of electrons in the conduction band. When Si semiconductor is doped with"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "13. Explain with diagram. Frenkel defect. What are the conditions for its formation? What is its effect on density and electrical neutrality of the crystal?",
+    "output": "Answer:Frenkel defect : This defect arises when an ion of an ionic compound is missing from its regular site and occuπes interstitial vacant position between lattice points. Cations have smaller size than anions, hence generally cations occupy the interstitial sites. This creates a vacancy defect at its original position and interstitial defect at new position. Frenkel defect is regarded as the combination of interstitial defect and vacancy defect. Conditions for the formation of Frenkel defect : This defect arises in ionic compounds with a large difference between the sizes of cation and anion. The ionic compounds must have ions with low coordination number. Consequences of Frenkel defect : Since there is no loss of ions from the crystal lattice, the density of the solid remains unchanged. The crystal remains electrically neutral. This defect is observed in ZnS, AgCl, AgBr, Agl, CaF"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "14. What is an impurity defect? What are its types? Explain the formation of vacancies through aliovalent impurity with example.",
+    "output": "Answer:Impurity defect : This defect arises when foreign atoms, that is, atoms different from the host atoms are present in the crystal lattice. There are two types of impurity defects namely Substitutional defects and Interstitial defects. ("
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Will you call the arrangement of particles in this solid regular or irregular ?",
+    "output": "Answer:The arrangement of particles in this solid is regular. Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Is the arrangement of constituent particles in directions (over→mathbfA B), (over→mathbfC D) and (over→mathbfE F) same or different?",
+    "output": "Answer:(over→mathbfA B) represents arrangement of identical particles of one type. (over→mathbfC D) represents arrangement of identical particles of another type. (over→mathbfE F) represents regular arrangement of two different particles in alternate positions. Use your brain power ! (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Identify the arrangements A and B as crystalline or amorphous.",
+    "output": "Answer:Arrangement in image A indicates the substance is crystalline. Arrangement in image B indicates the substance is amorphous. Try this… (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Graphite is a covalent solid yet soft and good conductor of electricity. Explain.",
+    "output": "Answer:Each carbon atom in graphite is sp"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Which of the three lattices scc, bcc and fcc has the most efficient packing of particles ? Which one has the least efficient packing ?",
+    "output": "Answer:fcc has the most efficient packing of particles while see has the least efficient packing. Can you think ? (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. When ZnO is heated it turns yellow and returns back to original white colour on cooling. What could be the reason ?",
+    "output": "Answer:When colourless ZnO is strongly heated, the metal atoms are deposited on crystal surface and anions O"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Will the resulting material contain the same number of total number of electrons as the original pure silicon ?",
+    "output": "Answer:Total number of electrons in doped silicon will be more than in original silicon. Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Will the material be electrically neutral or charged ?",
+    "output": "Answer:Material will be electrically neutral. Class"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Choose the most correct answer. Question i. The vapour pressure of a solution containing",
+    "output": "2 moles of a solute in 2 moles of water (vapour pressure of pure water = 24 mm Hg) is (a) 24 mm Hg (b) 32 mm Hg (c) 48 mm Hg (d) 12 mm Hg Answer: (d) 12 mm Hg Question ii. The colligative property of a solution is (a) vapour pressure (b) boiling point (c) osmotic pressure (d) freezing point Answer: (c) osmotic pressure Question iii. In calculating osmotic pressure the concentration of solute is expressed in (a) molarity (b) molality (c) mole fraction (d) mass per cent Answer: (a) molarity Question iv. Ebullioscoπc constant is the boiling point elevation when the concentration of the solution is (a) 1 m (b) 1 M (c) 1 mass% (d) 1 mole fraction of solute Answer: (a) 1 m Question v. Cryoscoπc constant depends on (a) nature of solvent (b) nature of solute (c) nature of solution (d) number of solvent molecules Answer: (a) nature of solvent Question vi. Identify the correct statement (a) vapour pressure of solution is higher than that of pure solvent. (b) boiling point of solvent is lower than that of solution (c) osmotic pressure of solution is lower than that of solvent (d) osmosis is a colligative property. Answer: (b) boiling point of solvent is lower than that of solution Question vii. A living cell contains a solution which is isotonic with 0.3 M sugar solution. What osmotic pressure develops when the cell is placed in 0.1 M KCl solution at body temperature ? (a) 5.08 atm (b) 2.54 atm (c) 4.92 atm (d) 2.46 atm Answer: (c) 4.92 atm Question viii. The osmotic pressure of blood is 7.65 atm at 310 K. An aqueous solution of glucose isotonic with blood has the percentage (by volume) (a) 5.41% (b) 3.54% (c) 4.53% (d) 53.4% Answer: (a) 5.41% Question ix. Vapour pressure of a solution is (a) directly proportional to the mole fraction of the solute (b) inversely proportional to the mole fraction of the solute (c) inversely proportional to the mole fraction of the solvent (d) directly proportional to the mole fraction of the solvent Answer: (d) directly proportional to the mole fraction of the solvent Question x. Pressure cooker reduces cooking time for food because (a) boiling point of water involved in cooking is increased (b) heat is more evenly distributed in the cooking space (c) the higher pressure inside the cooker crushes the food material (d) cooking involves chemical changes helped by a rise in temperature Answer: (a) boiling point of water involved in cooking is increased Question xi. Henry’s law constant for a gas CH3Br is 0.159 mol dm-3 atm at 250°C. What is the solubility of CH3Br in water at 25 °C and a partial pressure of 0.164 atm? (a) 0.0159 mol L-1 (b) 0.164 mol L-1 (c) 0.026 M (d) 0.042 M Answer: (c) 0.026 M Question xii. Which of the following statement is NOT correct for 0.1 M urea solution and 0.05 M sucrose solution ? (a) osmotic pressure exhibited by urea solution is higher than that exhibited by sucrose solution (b) urea solution is hypertonic to sucrose solution (c) they are isotonic solutions (d) sucrose solution is hypotonic to urea solution Answer: (c) they are isotonic solutions"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Answer the following in one or two sentences Question i. What is osmotic pressure ?",
+    "output": "Answer:("
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. Answer the following. Question i. How vapour pressure lowering is related to a rise in boiling point of solution?",
+    "output": "Answer:("
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2.",
+    "output": "Answer:Given : πCacl"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. Derive the relationship between ° of dissociation of an electrolyte and van’t Hoff factor.",
+    "output": "Answer:Consider"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "5. What is effect of temperature on solubility of solids in water? Give examples.",
+    "output": "Answer:The solubility of a solid solute depends upon temperature. Variation of solubilities of some ionic solids with temperature Generally rise in temperature increases the solubility. This is due to expansion of holes or empty spaces in the liquid solvent. Generally"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "6. Obtain the relationship between freezing point depression of a solution containing nonvolatile nonelectrolyte and its molar mass.",
+    "output": "Answer:The freezing point depression, ΔTf of a solution is directly proportional to molality (m) of the solution. ∴ ΔTf ∝ m ∴ ΔTf = Kf m where Kf is a molal depression constant. The molality of a solution is given by, If W"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "7. Explain with diagram the boiling point elevation in terms of vapour pressure lowering.",
+    "output": "Answer:("
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "8. Fish generally needs O",
+    "output": "2 concentration in water at least 3.8 mg/L for survival. What partial pressure of O2 above the water is needed for the survival of fish? Given the solubility of O2 in water at 0 °C and 1 atm partial pressure is 2.2 × 10-3 mol/L (0.054 atm) Answer: Given : Required concentration of O2 = 3.8 mg/L = ( (3.8 × 10⁻³32 mathrm~mol mathrm~L⁻¹) Solubility of O2 = 2.2 × 10-3 mol L-1 P = 1 atm Partial pressure of O2 needed = Po2 = ? Pressure needed = Po2 = 0.05397 atm. Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "9. The vapour pressure of water at",
+    "output": "20 °C is 17 mm Hg. What is the vapour pressure of solution containing 2.8 g urea in 50 g of water? (16.17 mm Hg) Answer: Given : Vapour pressure of pure solvent (water) = P0 = 17 mm Hg Weight of solvent = W1 = 50 g Weight of solute (urea) = 2.8 g Molecular weight of a solvent = M1 = 18 Molecular weight of a solute (urea) = M2 = 60 g mol-1 ( (P₀-PP₀= (W₂ × M₁W₁ × M₂) ∴ ( (17-P17= (2.8 × 1850 × 60) = 0.0168 ∴ 17 – P = 17 × 0.0168 17 – P = 0.2856 ∴ P= 17 – 0.2856 = 16.7144 mm Hg Vapour pressure of solution = 16.7144 mm Hg Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "10. A",
+    "output": "5% aqueous solution (by mass) of cane sugar (molar mass 342 g/mol) has freezing point of 271K. Calculate the freezing point of 5% aqueous glucose solution. Answer: Given : W2 = 5 g cane sugar; W1 = 100 – 5 = 95 g M2 = 342 g mol-1; Tf1 = 271 K; ΔTf1 = 273 – 271 = 2 K; Tf = ? W2 = 5 g glucose, W’1 = 100 – 5 = 95 g, M’2 = 180 g mol-1, ΔTf2 = ? = 12.996 K kg mol-1 ≅ 13 K kg mol-1 ∴ Freezing point of solution = Tf = 273 – 3.801 = 269.2 K Freezing point of solution = 269.2 K. Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "11. A solution of citric acid C",
+    "output": "6H8O7 in 50 g of acetic acid has a boiling point elevation of 1.76 K. If Kb for acetic acid is 3.07 K kg mol-1, what is the molality of solution? Answer: Given : W1 = 50 g acetic acid ΔTb = 1.76 K Kb = 3.07 K kg mol-1 m = ? ΔTb = Kb × m ∴ m = ( (Δ T_mathrmbK_mathrmb) = ( (1.763.07) = 0.5733 m Molality of solution = 0.5733 m Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "12. An aqueous solution of a certain organic compound has a density of",
+    "output": "1.063 gmL-1, an osmotic pressure of 12.16 atm at 25°C and a freezing point of -1.03°C. What is the molar mass of the compound? (334 g/mol) Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "13. A mixture of benzene and toluene contains",
+    "output": "30% by mass of toluene. At 30°C, vapour pressure of pure toluene is 36.7 mm Hg and that of pure benzene is 118.2 mm Hg. Assuming that the two liquids form ideal solutions, calculate the total pressure and partial pressure of each constituent above the solution at 30°C. Answer: Given : 30% by mass of toluene (T) and 70% by mass of benzene (B). WT = 30 g; WB = 70g (P_mathrmT⁰) = 36.7 mm Hg; (P_mathrmB⁰) = 118.2 mm Hg MT = 92 g mol-1; MB = 78 g mol-1 PT = ?, PB = ?, Psoln = ? Total number of moles = nTotal = nT + nB = 0.326 + 0.8974 = 1.2234 mol Mole fractions : xT = ( (n_mathrmTn_text Total = (0.3261.2234) = 0.2665 xB = 1 – 0.2665 = 0.7335 Psoln = xT + (P_mathrmT⁰) + xB × (P_mathrmB⁰) = 0.2665 × 36.7 + 0.7335 × 118.2 = 9.780 + 86.7 = 96.48 mm Hg Partial pressures : PT = xT × Psoln = 0.2665 × 96.48 = 25.71 mm Hg PB = xB × Psoln = 0.7335 × 96.48 = 70.77 mm Hg Total pressure Psoln = 96.48 mm Hg Partial pressures : PToluene = 25.71 mm Hg PBenzene = 70.77 mm Hg Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "14. At",
+    "output": "25 °C a 0.1 molal solution of CH3COOH is 1.35% dissociated in an aqueous solution. Calculate freezing point and osmotic pressure of the solution assuming molality and molarity to be identical. Answer: Given : T = 273 + 25 = 298 K C = 0.1 m ≅ 0.1 M; Kf = 1.86 K kg mol-1 Per cent dissociation = 1.35 Freezing point = tf = ? π = ? α = ( (1.35100) = 0.0135 i = 1 – α + α + α = 1 + α = 1 + 0.0135 = 1.0135 (i) ΔTf = i × Kf × m = 1.0135 × 1.86 × 0.1 = 0.1885 °C ∴ Freezing point of solution = 0 – 0.1885 = – 0.1885 °C (ii) n = iCRT = 1.035 × 0.1 × 0.08206 × 298 = 2.53 atm (i) Freezing point of solution = – 0.1885 °C (ii) Osmotic pressure = π = 2.53 atm Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "15. A",
+    "output": "0.15 m aqueous solution of KCl freezes at -0.510 °C. Calculate i and osmotic pressure at 0 °C. Assume volume of solution equal to that of water. Answer: Given : c = 0.15 m KCl ≅ 0.15 M KCl ΔTf = 0 – Tf = 0 – (-0.510) = 0.510 °C T = 273 K; Kf = 1.86 K kg mol-1 i = ?; π = ? ΔTf = i × Kf × m ∴ i = ( (Δ T_mathrmfK_mathrmf × m) = ( (0.5101.86 × 0.15) = 1.828 π = iCRT = 1.828 × 0.15 × 0.08206 × 273 = 6.143 atm i = 1.828, Osmotic pressure = π = 6.143 atm 12th Chemistry Digest Chapter 2 Solutions Intext Questions and Answers Can you tell ? (Textbook Page No. 29) Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Why naphthalene dissolves in benzene but not in water ?",
+    "output": "Answer:Since naphthalene is a covalent nonpolar substance, it is soluble in a nonpolar solvent like benzene but insoluble in polar solvent like water. Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Anhydrous sodium sulphate dissolves in water with the evolution of heat. What is the effect of temperature on its solubility ?",
+    "output": "Answer:Since the dissolution of anhydrous sodium sulphate in water is an exothermic process due to evolution of heat, according to Le Chatelier’s principle its solubility decreases with the increase in temperature. (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. If",
+    "output": "1.25 m sucrose solution has ΔTf of 2.32 °C, what will be the expected value of ΔTf for 1.25 m CaCl2 solution? Answer: Sucrose being nonelectrolyte, it has i = 1 but for CaCl2, (CaCl2 → Ca2+ + 2Cl–) the value of i ="
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. Hence ΔTf = i ×",
+    "output": "2.32 = 3 × 2.32 = 6.92 °C ∴ ΔTf = 6.92 °C. (Textbook Page No. 44) Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Which of the following solutions will have maximum boiling point elevation and which have minimum freezing point depression assuming the complete dissociation? (a)",
+    "output": "0.1m KCl (b) 0.05 m NaCl (c) 1 m AlPO4 (d) 0.1 m MgSO"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. Solution : Boiling point elevation and freezing point depression are colligative properties that depend on number of particles in solution. The solution having more number of particles will have large boiling point elevation and that having less number of particles would show minimum freezing point depression. AlPO",
+    "output": "4 solution contains highest moles and hence highest number particles and in turn, the maximum ΔTb. NaCl solution has minimum moles and particles, it has minimum ΔTf. Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Arrange the following solutions in order of increasing osmotic pressure. Assume complete ionization. (a)",
+    "output": "0.5 m Li2SO4 (b) 0.5 m KCl (c) 0.5 m Al2(SO4)3 (d) 0.1 m BaCl"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2.",
+    "output": "Answer:Consider"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Choose the most correct answer : Question i. The pH of",
+    "output": "10-8 M of HCl is (a) 8 (b) 7 (c) less than 7 (d) greater than 7 Answer: (c) less than 7 Question ii. Which of the following solution will have pH value equal to 1.0? (a) 50 mL of 0.1M HCl + 50mL of 0.1 M NaOH (b) 60 mL of 0.1M HCl + 40mL of 0.1 M NaOH (c) 20 mL of 0.1M HCl + 80mL of 0.1 M NaOH (d) 75 mL of 0.2M HCl + 25mL of 0.2 M NaOH Answer: (d) 75 mL of 0.2M HCl + 25mL of 0.2 M NaOH Question iii. Which of the following is a buffer solution ? (a) CH3COONa + NaCl in water (b) CH3COOH + HCl in water (c) CH3COOH + CH3COONa in water (d) HCl + NH4Cl in water Answer: (c) CH3COOH + CH3COONa in water Question iv. The solubility product of a sparingly soluble salt AX is 5.2 x 10-"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "13. Its solubility in mol dm-",
+    "output": "3 is (a) 7.2 × 10-7 (b) 1.35 × 10-4 (c) 7.2 × 10-8 (d) 13.5 × 10-8 Answer: (a) 7.2 × 10-7 Question v. Blood in human body is highly buffered at pH of (a) 7.4 (b) 7.0 (c) 6.9 (d) 8.1 Answer: (a) 7.4 Question vi. The conjugate base of [Zn(H2O)4]2+ is (a) [Zn(H2O)4]2+ NH3 (b) [Zn(H2O)3]2+ (c) [Zn(H2O)3OH]+ (d) [Zn(H2O)H]3+ Answer: (c) [Zn(H2O)3OH]+ Question vii. For pH > 7 the hydronium ion concentration would be (a) 10-7 M (b) 10-7 M (d) ≥ 10-7 M Answer: (b) < 10-7 M"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Answer the following in one sentence : Question i. Why cations are Lewis acids ?",
+    "output": "Answer:Since cations are deficient of electrons they accept a pair of electrons, hence they are Lewis acids. Question ii. Why is KCl solution neutral to litmus?"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "5. Calculate percent dissociation of acetic acid in",
+    "output": "0.01 M solution. Answer: Given : Ka = 1.8 x 10-5; C = 0.01 M Percent dissociation = ? ∴ Percent dissociation = α × 100 = 4.242 × 10-2 × 102 = 4.242% Percent dissociation = 4.242% Question v. Write one property of a buffer solution. Answer: Properties (or advantages) of a buffer solution : The pH of a buffer solution is maintained appreciably constant. By addition of a small amount of an acid or a base pH does not change. On dilution with water, pH of the solution doesn’t change. Question vi. The pH of a solution is 6."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "06. Calculate its H+ ion concentration. Question vii. Calculate the pH of",
+    "output": "0.01 M sulphuric acid. Answer: Given : C = 0.01 M H2SO4, pH = ? (mathrmH₂ mathrmSO_4(mathrmaq) long→ 2 mathrmH_(mathrmaq)⁺+mathrmSO_4(mathrmaq)²⁻) ∴ [H3O+] = 2 × 0.01 = 0.02 M PH = -log10 [H3O+] = -log10 0.02 = –((overline2 .3010)) = 2 – 0.3010 = 1.6990 pH = 1."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "6990. Question viii. The dissociation of H",
+    "output": "2S is suppressed in the presence of HCl. Name the phenomenon. Answer: The weak dibasic acid H2S is dissociated as follows : When HCl is added, it increases the concentration of common ion H3O+. (mathrmHCl_(mathrmaq)+mathrmH₂ mathrmO_(mathrml) → mathrmH₃ mathrmO_(mathrmaq)⁺+mathrmCl_(mathrmaq)⁻) Hence by Le Chaterlier’s principle, the equilibrium is shifted from right to left, suppressing the dissociation of weak electrolyte H2S. Question ix. Why is it necessary to add H2SO4 while preparing the solution of CuSO4? Answer: CuSO4 is a salt of strong acid H2SO4 and weak base Cu(OH)"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. CuSO",
+    "output": "4 in aqueous solution undergoes hydrolysis and forms a preciπtate of Cu(OH)2 and solution becomes turbid. CuSO4 + 2H2O ⇌ CU(OH)2↓ + H2SO4 OR CuSO4 + 4H2O ⇌ Cu(OH)2 + 2H3O+ + (mathrmSO₄²⁻) When H2SO4 is added, the hydrolysis equilibrium is shifted to left hand side and Cu(OH)2 dissolves giving clear solution. Question x. Classify the following buffers into different types : a. CH3COOH + CH3COONa b. NH4OH + NH4Cl c. Sodium benzoate + benzoic acid d. Cu(OH)2 + CuCl2 Answer: (a) Acidic buffer (CH3COOH + CH3COONa) (b) Basic buffer (NH4OH + NH4Cl) (c) Acidic buffer (Sodium benzoate + benzoic acid) (d) Basic buffer (Cu(OH)2 + CuCl2) [Note : Cu(OH)2 being insoluble is not used to prepare a buffer solution.]"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. Answer the following in brief : Question i. What are acids and bases according to Arrhenius theory ?",
+    "output": "Answer:According to Arrhenius theory : Acid : It is a substance which contains hydrogen and on dissolving in water produces hydrogen ions (H+) E.g. HCl (mathrmHCl_(mathrmaq) rightleftharpoons mathrmH_(mathrmaq)⁺+mathrmCl_(mathrmaq)⁻) Base : It is a substance which contains OH group and on dissolving in water produces hydroxyl ions (OH–). E.g. NaOH (mathrmNaOH_(mathrmaq) rightleftharpoons mathrmNa_(mathrmaq)⁺+mathrmOH_(mathrmaq)⁻) Question ii. What is meant by conjugate acid-base pair?"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "14.",
+    "output": "Answer:The ionic product of water, Kw is given by, Kw = [H"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. Calculate the pH of solution.",
+    "output": "Answer:Given : [OH–] ="
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. Let α be the ° of dissociation This is Ostwald’s dilution law. Question ii. Define pH and pOH. Derive relationship between pH and pOH.",
+    "output": "Answer:("
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. Since Ka = Kb, the weak acid CH",
+    "output": "3COOH and weak base NH4OH dissociate to the same extent, hence, [H3O+] = [OH–] and the solution reacts neutral after hydrolysis. Question iv. Dissociation of HCN is suppressed by the addition of HCl. Explain. Answer: The weak acid HCN is dissociated as follows : (mathrmHCN_(mathrmaq)+mathrmH₂ mathrmO_(mathrml) rightleftharpoons mathrmH₃ mathrmO_(mathrmaq)⁺+mathrmCN_(mathrmaq)⁻) The dissociation constant Ka is represented as, Ka = ( (left[mathrmH₃ mathrmO⁺right] ×left[mathrmCN⁻right][mathrmHCN]) When HCl is added, it increases the concentration of H3O+, hence in order to keep the ratio constant, then by Le Chatelier’s principle, the equilibrium is shifted from right to left, suppressing the dissociation of HCN. Question v. Derive the relationship between ° of dissociation and dissociation constant in weak electrolytes. Answer: Expression of Ostwald’s dilution law in the case of a weak electrolyte : Consider the dissociation of a weak electrolyte BA. Let V dm3 of a solution contain one mole of the electrolyte. Then the concentration of a solution is, C = ( (1V)mol dm-"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. Let α be the ° of dissociation of the electrolyte. Applying the law of mass action to this dissociation equilibrium, we have, As the electrolyte is weak, α is very small as compared to unity, ∴ (",
+    "output": "1 – α) ≈"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. This is the expression of Ostwald’s dilution law. Thus, the ° of dissociation of a weak electrolyte is directly proportional to the square root of the volume of the solution containing",
+    "output": "1 mole of an electrolyte. Question vi. Sulfides of cation of group II are preciπtated in acidic solution (H2S + HCl) whereas sulfides of cations of group IIIB are preciπtated in ammoniacal solution of H2S. Comment on the relative values of solubility product of sulfides of these. Answer: (1) In qualitative analysis, the cations of group II are preciπtated as sulphides, namely HgS, CuS, PbS, etc., while cations of group IIIB are preciπtated as sulphides, namely, CoS, NiS, ZnS. (2) The sulphides of group II have extremely low solubility product (Ksp) about 10-29 to 10-53 while the sulphides of group IIIB have slightly higher Ksp values about 10-20 to 10-23. (3) In group II, sulphides are preciπtated by adding H2S in acidic solution while in IIIB group they are preciπtated in a basic solution like ammonical solution. (4) In acidic medium due to common ion H+, H2S is dissociated to very less extent but gives sufficient S2- ion to exceed solubility product of group II sulphides of cations and preciπtate them. (mathrmHCl_(mathrmaq) long→ mathrmH_(mathrmaq)⁺+mathrmCl_(mathrmaq)⁻ ; mathrmH₂ mathrm~S_(mathrmaq) rightleftharpoons 2 mathrmH_(mathrmaq)⁺+mathrmS_(mathrmaq)²⁻) (5) In basic medium, H+ from H2S are removed by OH– in solution, or by NH4OH, increasing the dissociation of H2S and concentration of S2-, so that IP > Ksp. (6) Therefore group II cations are preciπtated in an acidic medium while cations of group IIIB are preciπtated in ammonical solution. Question vii. Solubility of a sparingly soluble salt get affected in presence of a soluble salt having one common ion. Explain. Answer: Consider the solubility equilibrium of a sparingly soluble salt, AgCl. (mathrmAgCl_(mathrms) rightleftharpoons mathrmAg_(mathrmaq)⁺+mathrmCl_(mathrmaq)⁻) The solubility product, Ksp is given by, Ksp = [Ag+] × [Cl–] Consider addition of a strong electrolyte AgNO3 with a common ion Ag+. (mathrmAgNO_3(mathrmaq) long→ mathrmAg_(mathrmaq)⁺+mathrmNO_3(mathrmaq)⁻) The concentration Ag+ in the solution is increased, hence by Le Chatelier’s principle the equilibrium of AgCl is shifted to left hand side since the value of Ksp is constant. Thus in the presence of a common ion, the solubility of a sparingly soluble salt is suppressed. Question viii. The pH of rain water collected in a certain region of Maharashtra on particular day was 5."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Calculate the H",
+    "output": "3O+ ion concentration of the rain water and its percent dissociation. Answer: Given : pH = 5.1, [H3O+] = ? PH = -log10 [H3O+] ∴ log10 [H3O+] = -pH ∴ [H3O+] = Antilog – pH = Antilog – 5.1 = Antilog (overline6 .9) = 7.943 × 10-6 M (H3O+ in rainwater is due to dissolved gases, CO2, SO2, etc. forming acids which dissociate giving H3O+ and acidity to rainwater.) [H3O+] = 7.943 × 10-4 M Question ix. Explain the relation between ionic product and solubility product to predict whether a preciπtate will form when two solutions are mixed? Answer: If ionic product and solubility product are indicated by IP and Ksp respectively then, (I) When IP = Ksp, the solution is saturated. (II) When IP > Ksp, the solution is supersaturated and hence preciπtation will occur, when two solutions are mixed. (Ill) When IP < Ksp, the solution is unsaturated and preciπtation will not occur, when two solutions are mixed. 12th Chemistry Digest Chapter 3 Ionic Equilibria Intext Questions and Answers Use your brain power (Textbook Page No. 47) Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Which of the following is a strong electrolyte ? HF, AgCl, CuSO",
+    "output": "4, CH3COONH4, H3PO"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4.",
+    "output": "Answer:CH"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. All Bronsted bases are also Lewis bases, but all Bronsted acids are not Lewis acids. Explain.",
+    "output": "Answer:NH"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Suppose that pH of monobasic and dibasic acid is the same. Does this mean that the molar concentrations of both acids are identical ?",
+    "output": "Answer:Even if monobasic acid and dibasic acid give same pH, their molar concentrations are different. One mole of monobasic acid like HCl gives"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. How does pH of pure water vary with temperature ? Explain.",
+    "output": "Answer:Since the increase in temperature, increases the dissociation of water, its pH decreases. Can you tell ? (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Why (i) an aqueous solution of NH",
+    "output": "4Cl is acidic. (ii) while that of HCOOK basic ? Answer: (i) (i) Ammonium chloride is a salt of strong acid and weak base. (ii) In aqueous solution it undergoes hydrolysis (iii) Since [H+] or [H3O+] > [OH–] the solution is acidic. (ii) HCOOK is a salt of weak acid HCOOH and strong base KOH. In aqueous solution it undergoes hydrolysis giving weak acid and strong base KOH which dissociates completely, ∴ [OH–] > [H3O+], and the solution reacts basic. Can you think ? (Textbook Page No. 56) Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Home made jams and jellies without any added chemical preservative additives spoil in a few days whereas commercial jams and jellies have a long shelf life. Explain. What role does added sodium benzoate play ?",
+    "output": "Answer:Sodium benzoate added to jams and jellies in commercial products maintains the pH constant and acts as a preservative. Hence jams and jellies are not spoiled for a very long time unlike homemade products. Can you tell ? (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. It is enough to add a few mL of a buffer solution to maintain its pH. Which property of buffer is used here ?",
+    "output": "Answer:The important property of reserve acidity and reserve basicity of a buffer solution is used to maintain constant pH. Weak acid or weak base along with ions (cations or anions) from salt react with excess of added acid (H+) or base [OH–] and maintain pH constant. Use your brain power (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. What is the relationship between molar solubility and solubility product for salts given below : (i) Ag",
+    "output": "2CrO4 (ii) Ca3(PO4)2 (iii) Cr(OH)"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3.",
+    "output": "Answer:Can you tell ? (Textbook Page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. How is the ionization of NH",
+    "output": "4OH suppressed by addition of NH4Cl to the solution of NH4OH ? Answer: Ionisation of NH4OH is represented as follows : (mathrmNH₄ mathrmOH_(mathrmaq) rightleftharpoons mathrmNH_4(mathrmaq)⁺+mathrmOH_(mathrmaq)⁻) It has ionisation constant, Kb = ( (left[mathrmNH⁴⁺right] ×left[mathrmOH⁻right]left[mathrmNH₄ mathrmOHright]) Kb has constant value at constant temperature. When strong electrolyte NH4Cl is added to its solution, it dissociates completely. (mathrmNH₄ mathrmCl_(mathrmaq) long→ mathrmNH_4(mathrmaq)⁺+mathrmCl_(mathrmaq)⁻) Due to common ion (mathrmNH₄⁺), by Le Chatelier’s principle, the equilibrium is shifted from right to left, suppressing the ionisation of NH4OH. Maharashtra State Board Class 12 Chemistry Textbook Solutions Solid State Class 12 Exercise Solutions Solutions Class 12 Exercise Solutions Ionic Equilibria Class 12 Exercise Solutions Chemical Thermodynamics Class 12 Exercise Solutions Electrochemistry Class 12 Exercise Solutions Chemical Kinetics Class 12 Exercise Solutions Elements of Groups 16, 17 and 18 Class 12 Exercise Solutions Transition and Inner Transition Elements Class 12 Exercise Solutions Coordination Compounds Class 12 Exercise Solutions Halogen Derivatives Class 12 Exercise Solutions Alcohols, Phenols and Ethers Class 12 Exercise Solutions Aldehydes, Ketones and Carboxylic Acids Class 12 Exercise Solutions Amines Class 12 Exercise Solutions 14 Biomolecules Class 12 Exercise Solutions Introduction to Polymer Chemistry Class 12 Exercise Solutions Green Chemistry and Nanochemistry Class 12 Exercise Solutions Categories Class 12 12th Chemistry Chapter 2 Solutions Exercise Solutions Maharashtra Board12th Chemistry Chapter 4 Exercise Chemical Thermodynamics Solutions Maharashtra Board Leave a Comment Cancel replyYou must be logged in to post a comment. Search for: Recent Posts Class 6 Marathi Balbharati Chapter 22 Question Answer वडिलांस पत्र Class 6 Marathi Balbharati Chapter 21 Question Answer या काळाच्या भाळावरती (कविता) Class 6 Marathi Balbharati Chapter 20 Question Answer ओळख थोरांची Class 6 Marathi Balbharati Chapter 19 Question Answer मले बाजाराला जायाचं बाई Class 6 Marathi Balbharati Chapter 18 Question Answer बहुमोल जीवन (कविता) Class 6 Marathi Balbharati Chapter 17 Question Answer दुखणं बोटभर Class 6 Marathi Balbharati Chapter 16 Question Answer सफर मेट्रोची Class 6 Marathi Balbharati Chapter 15 Question Answer बालसभा Class 6 Marathi Balbharati Chapter 14 Question Answer आतां उजाडेल (कविता) Class 6 Marathi Balbharati Chapter 13 Question Answer आपली सुरक्षा, आपले उपाय Class 6 Marathi Balbharati Chapter 12 Question Answer मला मोठं व्हायचंय Maharashtra State Board Class 12 Solutions Maharashtra State Board Class 11 Solutions Maharashtra State Board Class 10 Solutions Calculadora de Porcentaje Maharashtra State Board Class 9 Solutions Maharashtra State Board Class 8 Solutions Maharashtra State Board Class 7 Solutions Maharashtra State Board Class 6 Solutions Maharashtra State Board Class 5 Solutions About Us Privacy Policy Disclaimer Contact Us Copyright © 2025 Maharashtra Board Solutions"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. The correct thermodynamic conditions for the spontaneous reaction at all temperatures are (a) ΔH <",
+    "output": "0 and ΔS > 0 (b) ΔH > 0 and ΔS 0 Question ii. A gas is allowed to expand in a well-insulated container against a constant external pressure of 2.5 bar from an initial volume of 2.5 L to a final volume of 4.5 L. The change in internal energy, ΔU of the gas will be (a) -500 J (b) +500J (c) -1013 J (d) +1013 J Answer: (a) -500 J Question iii. In which of the following, entropy of the system decreases ? (a) Crystallisation of liquid into solid (b) Temperature of crystalline solid is increased from 0 K to 115 K (c) H2(g) → 2H(g) (d) 2NaHCO3(s) → Na2CO3(s) + CO2(g) + H2O(g) Answer: (a) Crystallisation of liquid into solid Question iv. The enthalpy of formation for all elements in their standard states is (a) unity (b) zero (c) less than zero (d) different elements Answer: (b) zero Question v. Which of the following reactions is exothermic ? (a) H2(g) → 2H(g) (b) C(s) → C(g) (c) 2Cl(g) → Cl2(g) (d) H2O(s) → H2O(l) Answer: (c) 2Cl(g) → Cl2(g) Question vi. 6.24 g of ethanol are vaporized by supplying 5.89 kJ of heat. Enthalpy of vaporization of ethanol will be (a) 43.4 kJ mol-1 (b) 60.2 kJ mol-1 (c) 38.9 kJ mol-1 (d) 20.4 kJ mol-1 Answer: (a) 43.4 kJ mol-1 Question vii. If the standard enthalpy of formation of methanol is -238.9 kJ mol-1 then entropy change of the surroundings will be (a) -801.7 JK-1 (b) 801.7 JK-1 (c) 0.8017 JK-1 (d) -0.8017 JK-1 Answer: (b) 801.7 JK-1 Question viii. Which of the following are not state functions ?"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. H-TS (a)",
+    "output": "1, 2 and 3 (b) 2 and 3 (c) 1 and 4 (d) 2, 3 and 4 Answer: (b) 2 and 3 Question ix. For vaporization of water at 1 bar, ΔH = 40.63 kJ mol-1 and ΔS =108.8 JK-1 mol-"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. At what temperature, ΔG =",
+    "output": "0? (a) 273.4 K (b) 393.4 K (c) 373.4 K (d) 293.4 K Answer: (c) 373.4 K Question x. Bond enthalπes of H – H, Cl – Cl and H – Cl bonds are 434 kJ mol-1, 242 kJ mol-2 and 431 kJ mol-1, respectively. Enthalpy of formation of HCl is (a) 245 kJ mol-1 (b) -93 kJ mol-1 (c) -245 kJ mol-1 (d) 93 kJ mol-1 Answer: (b) -93 kJ mol-1"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Answer the following in one or two sentences. Question i. Comment on the statement: No work is involved in an expansion of a gas in vacuum.",
+    "output": "Answer:("
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "0. Question v. State whether ∆S is positive, negative or zero for the reaction",
+    "output": "2H(g) → H2(g). Explain. Answer: (i) The given reaction, 2H(g) → H2(g) is the formation of H2(g) from free atoms. (ii) Since two H atoms form one H2 molecule, ∆n = 1 – 2= -1 and disorder is decreased. Hence entropy change ∆S 0 ∆ SUniverse = ∆ Ssystem + ∆ Ssurr > 0 Question vii. If the enthalpy change of a reaction is ∆H how will you calculate entropy of surroundings? Answer: (i) For endothermic reaction, ∆H >"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "0. This shows the system absorbs heat from surroundings. ∴ ∆surr H <",
+    "output": "0. ∵ Entropy change = ∆surr S = ( (-Δ_text surr HT) There is decrease in entropy of surroundings. (ii) For exothermic reaction, ∆H 0 ∴ ∆surr >"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "0. Question viii. Comment on spontaneity of reactions for which ∆H is positive and ∆S is negative.",
+    "output": "Answer:Since ∆H is +ve and ∆S is -ve, ∆G will be +ve at all temperatures. Hence reactions will be non-spontaneous at all temperatures."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. Answer in brief. Question i. Obtain the relationship between ∆G° of a reaction and the equilibrium constant.",
+    "output": "Answer:Consider following reversible reaction, aA + bB ⇌ cC + dD The reaction quotient Q is, Q = ( ([mathrmC]^c ×[mathrmD]^d[mathrm~A]^a ×[mathrmB]^b) The free energy change ∆G for the reaction is ∆G = ∆G° + RT in Q Where ∆G° is the standard free energy change. At equilibrium Q = ( ([mathrmC]_e^c ×[mathrmD]_e^d[mathrm~A]_e^a ×[mathrmB]_e^b=mathrmK) ∴ ∆G = ∆G° + RT In K ∵ at equilibrium ∆G ="
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "0. E.g. CH",
+    "output": "3OH(l) + ( ( 32) O2(g) = CO2(g) + 2H2O ∆cH0= -726 kJ mol-1 (∆cH0 is always negative.) [Note : Calorific value : It is the enthalpy change or amount of heat liberated when one gram of a substance undergoes combustion. Question v. What is the enthalpy of atomization? Give an example. Answer: Enthalpy of atomisation (∆atomH) : it is the enthalpy change accompanying the dissociation of one mole of gaseous substance into its atoms at constant temperature and pressure. For example : CH4(g) → C(g) + 4H(g) ∆atomH = 1660 kJ mol-1 Question vi. Obtain the expression for work done in chemical reaction. Answer: Consider n1 moles of gaseous reactants A of volume V1 change to n2 moles of gaseous products B of volume V2 at temperature T and pressure P. In the initial state, PV1 = n1RT In the final state, PV2 = n2RT PV2 – PV1 = n2RT – n1RT = (n2 – n1)RT = ∆nRT where ∆n is the change in number of moles of gaseous products and gaseous reactants. Due to net changes in gaseous moles, there arises change in volume against constant pressure resulting in mechanical work, -P∆V. ∴ W = -P∆V = -P(V2 – V1) = – ∆nRT (i) If n1 – n2, ∆n = 0, W ="
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "0. No work is performed. (ii) If n",
+    "output": "2 > n1, ∆n > 0, there is a work of expansion by the system and W is negative. (iii) If n2 < n1, ∆n < 0, there is a work of compression, hence work is done on the system and W is positive. Question vii. Derive the expression for PV work. Answer: Consider a certain amount of an ideal gas enclosed in an ideal cylinder fitted with massless, frictionless rigid movable πston at pressure P, occupying volume V1 at temperature T. Fig. 4.8 : Work of expansion As the gas expands, it pushes the πston upward through a distance d against external force F, pushing the surroundings. The work done by the gas is, W = opposing force × distance = -F × d -ve sign indicates the lowering of energy of the system during expansion. If a is the cross section area of the cylinder or πston, then, W = (- (Fa) × d × a Now the pressure is Pex = ( (Fa) while volume change is, ΔV = d × a ∴ W = -Pex × ΔV If during the expansion, the volume changes from V1 and V2 then, ΔV = V2 – V1 ∴ W= -Pex(V2 – V1) During compression, the work W is +ve, since the energy of the system is increased, W = +Pex(V2 – V1) Question viii. What are intensive properties? Explain why density is intensive property. Answer: (A) Intensive property : It is defined as a property of a system whose magnitude is independent of the amount of matter present in the system. Explanation : Intensive property is characteristic of the system, e.g., refractive index, density, viscosity, temperature, pressure, boiling point, melting point, freezing point of a pure liquid, surface tension, etc. The intensive properties are not additive. (B) Density is a ratio of two extensive properties namely, mass and volume. Since the ratio of two extensive properties represents an intensive property, density is an intensive property. It does not depend on the amount of a substance. Question ix. How much heat is evolved when 12 g of CO reacts with NO2 ? The reaction is : 4 CO(g) + 2 NO2(g) → 4CO2(g) + N2(g), ∆H0 = -1200 kJ"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. Answer the following questions. Question i. Derive the expression for the maximum work.",
+    "output": "Answer:Consider n moles of an ideal gas enclosed in an ideal cylinder fitted with a massless and frictionless movable rigid πston. Let V be the volume of the gas at a pressure P and a temperature T. If in an infinitesimal change pressure changes from P to P – dP and volume increases from V to V + dV. Then the work obtained is, dW = -(P-dP) dV = -PdV + dPdV Since dP.dV is negligibly small relative to PdV dW= -PdV Let the state of the system change from A(P"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "0. The heat absorbed in reversible manner Qrev, is completely converted into work. Qrev = -Wmax. Hence work obtained is maximum. Question ii. Obtain the relatioship between ∆H and ∆U for gas phase reactions.",
+    "output": "Answer:Consider a reaction in which n"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. Question vii. Calculate the maximum work when",
+    "output": "24g of O2 are expanded isothermally and reversibly from the pressure of 1.6 bar to 1 bar at 298 K. Answer: Given : W02 = 24 g, P1 = 1.6 bar, P2 = 1 bar T = 298 K, Wmax = ? Question viii. Calculate the work done in the decomposition of 132 g of NH4NO3 at 100 °C. NH4NO3(s) → N2O(g) + 2 H2O(g) State whether work is done on the system or by the system. Answer: NH44NO3(s) → N2O(g) + 2 H2O(g) mNH4NO3 = 132 g; MNH4NO3 = 80 g mol-1 T = 273 + 100 = 373 K; Δn = ? For the reaction, Δn = Σn2 gaseous products – Σn1 gaseous reactants = 3 – 0 = 3 mol Since there is an increase in number of gaseous moles, the work is done by the system. nNH4NO3 = ( (m_mathrmNH₄ mathrmNO₃M_mathrmNH₄ mathrmNO₃) = ( (13280) = 1.65 mol For 1 mol NH4NO3(s) Δn = 3 mol ∴ For 1.65 mol NH4NO3(s) Δn = 3 × 1.65 = 4.95 mol W = -ΔnRT = -4.95 × 8.314 × 373 = – 15350 J = – 15.35 kJ Ans. Work is done by the system. Work done = – 15.35 kJ Question ix. Calculate standard enthalpy of reaction, Fe2O3(s) + 3CO(g) → 2 Fe(s) + 3CO2(g), from the following data. ∆fH0(Fe2O3) = -824 kJ/mol, ∆fH0(CO) = -110 kJ/mol, ∆fH0(CO2) = -393 kJ/mol Answer: Given : ∆fH0Fe2O3 = -824 kJ/mol-1; ∆fH0(CO) = – 110 kJ mol-1 ∆fH0(CO2) = – 393 kJ/mol-1; ∆fH0 = ? Required equation, Fe2O3(s) + 3CO(g) → 2Fe(s) + 3CO2(g) ∆H1 = ? – (I) Given equations : = -(-824) -3 (-110) + 3(-393) = 824 + 330 – 1179 ∆fH0 = -25 kJ Ans. ∆fH0 = -25 kJ Question x. For a certain reaction ∆H0 =219 kJ and ∆S0 = -21 J/K. Determine whether the reaction is spontaneous or nonspontaneous. Answer: Given : ∆H0 = 219 kJ; ∆S0 = -21 J/K, ∆G0 = ? For standard state, T = 298 K ∆G0 = ∆H0 – T∆S0 = 219 – 298 × (-21) × 10-3 = 219 + 6.258 = 225.3 kJ Since ∆S 0, the reaction is non-spontaneous. Question xi. Determine whether the following reaction is spontaneous under standard state conditions. 2 H2O(l) + O2(g) → 2H2O2(l) if ∆H0 = 196 kJ, ∆S0 = -126 J/K Does it have a cross-over temperature? Answer: Given : 2H2O(l) + O2(g) → 2H2O2(l) ∆H0 = +196 kJ ∆S0 = -126 JK-1 =0.126 kj K-1 T= 298 K ∆G0 = ? Cross over temperature = T = ? ∆G0 = ∆H0 – T∆S0 = 196 – 298 (-0.126) = 196 + 37.55 = + 233.55 kJ ∵ ∆G0 > 0, the reaction is non-spontaneous. ∆H0 > 0, ∆S0 0, there is no cross over temperature. Ans. The reaction is non-spontaneous. There is no cross-over temperature for the reaction. Question xii. Calculate ∆U at 298 K for the reaction, C2H4(g) + HCl(g) → C2H5Cl(g), ∆H = -72.3 kJ How much PV work is done? Answer: Given : C2H4(g) + HCl(g) → C2H5Cl(g) T = 298 K; ∆H = -72.3 kJ; PV = ?; ∆U = ? ∆n = Σn2gaseous products – Σn1gaseous reactants = 1 – (1 + 1)= -1 mol For PV work : W = -∆nRT = – (- 1) × 8.314 × 298 = 2478 J = 2.478 kJ ∆H = ∆U + ∆nRT ∴ ∆U = ∆H – ∆nRT = – 72.3 – (-2.478) = – 69.82 kJ Ans. PV work = 2.478 kJ ∆U = -69.82 kJ Question xiii. Calculate the work done during synthesis of NH3 in which volume changes from 8.0 dm3 to 4.0 dm3 at a constant external pressure of 43 bar. In what direction the work energy flows? Answer: Given : V1 = 8.0 dm3; V2 = 4.0 dm3; Pex = 43 bar W = ? What direction work energy flows ? W = -Pex(V2 – V1) = -43 (4 – 8) = 172 dm3 bar = 172 × 100 J = 17200 J = 17.2 kJ In this compression process, the work is done on the system and work energy flows into the system. Question xiv. Calculate the amount of work done in the (a) oxidation of 1 mole HCl(g) at 200 °C according to reaction. 4HCl(g) + O2(g) → 2 Cl2(g) + 2 H2O(g) (b) decomposition of one mole of NO at 300 °C for the reaction 2 NO(g) → N2(g) + O2 Answer: Given : (a) 4HCl(g) + O2(g) → 2Cl2(g) + 2H2O(g) nHCl = 1 mol; T = 273 + 200 = 473 K, W = ? For 4 mol HCl ∆n = (2 + 2) – (4 + 1) = – 1 mol ∴ For 1 mol HCl ∆n = –( ( 14) = -0.25 mol W = -∆nRT = – (-0.25) × 8.314 × 473 = 983.11 (b) ∆n = (1 + 1) – 2 = 0 mol W = -∆nRT = -(0) × 8.314 × 473 = 0 Ans. (a) W = 983.1 J (b) W = 0.0 J Question xv. When 6.0 g of O2 reacts with CIF as per 2CIF(g) + O2(g) → Cl2O(g) + OF2(g) The enthalpy change is 38.55 kJ. What is standard enthalpy of the reaction ? Answer: Given : The given reaction is for 1 mol O2 or 32 g O2. ∵ For 6.0 g O2 ∆ H0 = 38.55 kJ ∴ For 32 g O2 ∆ H0 = ( (32 × 38.556) = 205.6 kJ Ans. ∆H0 = 205.6 kJ Question xvi. Calculate the standard enthalpy of formation of CH3OH(l) from the following data: i. CH3OH(l) + ( ( 32) O2(g) → CO2(g) + 2H2O(l), ∆H0 = -726 kJ mol-1 ii. C (Graphite) + O2(g) → CO2(g), ∆cH0 = -393 kJ mol-1 iii. H2(g) + ( ( 12) O2(g) → H2O(l), ∆fH0 = -286 kJ mol-1 Answer: ∴ ∆H0 = –(Δ H₂⁰) + (Δ H₃⁰) + 2∆(Δ H₄⁰) = – (- 726) + (- 393) + 2(- 286) = 726 – 393 – 572 = – 239 kJ mol-1 Ans. Standard enthalpy of formation = ∆fH0= -239 kJ mol-1 Question xvii. Calculate ∆H0 for the following reaction at 298 K H2B4O7(s) + H2O(l) → 4HBO2(aq) i. 2H3BO3(aq) → B2O3(s) + 3H2O(l), ∆H0 = 14.4 kJ mol-1 ii. H3BO3(aq) → HBO2(aq) + H2O(l), ∆H0 = -0.02 kJ mol-1 iii. H2B4O7(s) → 2B2O3(s) + H2O(l), ∆H0 = 17.3 kJ mol-1 Answer: Given equations : i. 2H3BO3(aq) → B2O3(s) + 3H2O(l), ……….(i) ∆H0 = 14.4 kJ mol-1 ii. H3BO3(aq) → HBO2(aq) + H2O(l) ……….(ii) ∆H0 = -0.02 kJ mol-1 iii. H2B4O7(s) → 2B2O3(s) + H2O(l), ……….(iii) ∆H0 = 17.3 kJ mol-1 Required equation : (iv) H2B4O7(s) + H2O(l) → 4HBO2(aq) ……. (iv) (Δ H₄⁰=?) To obtain eq. (iv) add 4 × equation (ii) and eq. (iii) and subtract 2 × equation (i). ∴ eq. (iv) = 4 eq. (ii) + eq. (iii) – 2eq. (i) ∴ (Δ H₄⁰=4 Δ H₂⁰+Δ H₃⁰-2 Δ H₁⁰) = 4(-0.02) + 17.3 – 2(14.4) = -0.08 + 17.3 – 28.8 = -11.58 kJ ∴ Enthalpy change for the reaction = ∆rH0 = -11.58 kJ Ans. ∆rH0 for the given reaction = -11.58 kJ Question xviii. Calculate the total heat required (a) to melt 180 g of ice at 0 °C, (b) heat it to 100 °C and then (c) vapourise it at that temperature. Given ∆fusH(ice) = 6.01 kJ mol-1 at 0 °C, ∆vapH(H2O) = 40.7 kJ mol-1 at 100 °C specific heat of water is 4.18 J g-1 K-"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1.",
+    "output": "Answer:Given : Mass of ice = m ="
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Under what conditions ∆H = ∆U ?",
+    "output": "Answer:(a) ∆H = ∆U + P∆V when ∆V ="
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. For KCl, ∆LH =",
+    "output": "699 kJ/mol-1 and ∆hydH = -681.8 kJ/mol-"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. What will be its enthalpy of solution?",
+    "output": "Answer:Enthalpy of solution : ∆solnH = ∆LH + ∆hydH ="
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Given the thermochemical equation, C",
+    "output": "2H2(g) + ( ( 52) O2(g) → 2CO2(g)+ H2O(l), ∆rH0 = -1300 kJ Write thermochemical equations when i. Coefficients of substances are multiplied by 2. ii. equation is reversed. Answer: (i) 2C2H2(g) + 5O2(g) → 4CO2(g) + 2H2O(l) ∆rH0 = -2 × 1300 kJ = – 2600 kJ (ii) 2CO2(g) + H2O(l) → C2H2(g) + ( ( 52)O2(g) ∆rH0 = +1300 KJ Try this… (Textbook page No. 78) Question 1. (i) Write thermochemical equation for complete oxidation of one mole of H2(g). Standard enthalpy change of the reaction is -286 kJ. (ii) Is the value -286 kJ, enthalpy of formation or enthalpy of combustion or both? Explain. Answer: (i) H2(g) + ( ( 12)O2(g) → H2O(l) ∆cH0 = -286 KJ mol-1 (ii) The value -286 kJ is the standard enthalpy of formation of H2O(l) or standard enthalpy of combustion of H2(g). Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Write equation for bond enthalpy of Cl-Cl bond in Cl",
+    "output": "2 molecule ∆rH0 for dissociation of Cl2 molecule is 242.7 kJ. Answer: Equation for bond enthalpy : Cl2(g) → 2Cl(g) ∆rH0 = 242.7 kJ mol-1 ∴ Bond enthalpy of Cl2 = 242.7 kJ mol-1 Try this… (Textbook page No. 82) Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. State whether ∆S is positive, negative or zero for the following reactions. i.",
+    "output": "2H2(g) + O2(g) → 2H2O(l) ii. CaCO3(s) → CaO(s) + CO2(g) Answer: (i) 2H2(g) + O2(g) → 2H2O(l) Since the system is converted from gaseous state to a liquid state, the disorder is decreased, hence ∆S O (positive). Maharashtra State Board Class 12 Chemistry Textbook Solutions Solid State Class 12 Exercise Solutions Solutions Class 12 Exercise Solutions Ionic Equilibria Class 12 Exercise Solutions Chemical Thermodynamics Class 12 Exercise Solutions Electrochemistry Class 12 Exercise Solutions Chemical Kinetics Class 12 Exercise Solutions Elements of Groups 16, 17 and 18 Class 12 Exercise Solutions Transition and Inner Transition Elements Class 12 Exercise Solutions Coordination Compounds Class 12 Exercise Solutions Halogen Derivatives Class 12 Exercise Solutions Alcohols, Phenols and Ethers Class 12 Exercise Solutions Aldehydes, Ketones and Carboxylic Acids Class 12 Exercise Solutions Amines Class 12 Exercise Solutions 14 Biomolecules Class 12 Exercise Solutions Introduction to Polymer Chemistry Class 12 Exercise Solutions Green Chemistry and Nanochemistry Class 12 Exercise Solutions Categories Class 12 12th Chemistry Chapter 3 Exercise Ionic Equilibria Solutions Maharashtra Board12th Chemistry Chapter 5 Exercise Electrochemistry Solutions Maharashtra Board Leave a Comment Cancel replyYou must be logged in to post a comment. Search for: Recent Posts Class 6 Marathi Balbharati Chapter 22 Question Answer वडिलांस पत्र Class 6 Marathi Balbharati Chapter 21 Question Answer या काळाच्या भाळावरती (कविता) Class 6 Marathi Balbharati Chapter 20 Question Answer ओळख थोरांची Class 6 Marathi Balbharati Chapter 19 Question Answer मले बाजाराला जायाचं बाई Class 6 Marathi Balbharati Chapter 18 Question Answer बहुमोल जीवन (कविता) Class 6 Marathi Balbharati Chapter 17 Question Answer दुखणं बोटभर Class 6 Marathi Balbharati Chapter 16 Question Answer सफर मेट्रोची Class 6 Marathi Balbharati Chapter 15 Question Answer बालसभा Class 6 Marathi Balbharati Chapter 14 Question Answer आतां उजाडेल (कविता) Class 6 Marathi Balbharati Chapter 13 Question Answer आपली सुरक्षा, आपले उपाय Class 6 Marathi Balbharati Chapter 12 Question Answer मला मोठं व्हायचंय Maharashtra State Board Class 12 Solutions Maharashtra State Board Class 11 Solutions Maharashtra State Board Class 10 Solutions Calculadora de Porcentaje Maharashtra State Board Class 9 Solutions Maharashtra State Board Class 8 Solutions Maharashtra State Board Class 7 Solutions Maharashtra State Board Class 6 Solutions Maharashtra State Board Class 5 Solutions About Us Privacy Policy Disclaimer Contact Us Copyright © 2025 Maharashtra Board Solutions"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Choose the most correct option. Question i. Two solutions have the ratio of their concentrations",
+    "output": "0.4 and ratio of their conductivities 0."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "216. The ratio of their molar conductivities will be (a)",
+    "output": "0.54 (b) 11.574 (c) 0.0864 (d) 1.852 Answer: (a) 0.54 Question ii. On diluting the solution of an electrolyte, (a) both ∧ and κ increase (b) both ∧ and κ decrease (c) ∧ increases and κ decreases (d) ∧ decreases and κ increases Answer: (c) ∧ increases and κ decreases Question iii. 1 S m2 mol-1 is equal to (a) 10-4 S m2 mol-1 (b) 104 Ω-1 cm2 mol-1 (c) 10-2 S cm2 mol-1 (d) 102 Ω-1 cm2 mol-1 Answer: (b) 104Ω-1 cm2 mol-1 Question iv. The standard potential of the cell in which the following reaction occurs H2+ (g, 1 atm) + Cu2+ (1 M) → 2H (1 M) + Cu(s), ((E_mathrmCu⁰) = 0.34 V) is (a) – 0.34 V (b) 0.34 V (c) 0.17 V (d) -0.17 V Answer: (b) 0.34 V Question v. For the cell, Pb(s)|Pb2+ (1 M)|| Ag+ (1 M)|Ag(s), if concentration of an ion in the anode compartment is increased by a factor of 10, the emf of the cell will (a) increase by 10 V (b) increase by 0.0296 V (c) decrease by 10 V (d) decrease by 0.0296 V Answer: (d) decrease by 0.0296 V Question vi. Consider the half reactions with standard potentials The strongest oxidising and reducing agents respectively are (a) Ag and Fe2+ (b) Ag+ and Fe (c) Pb2+ and I– (d) I2 and Fe2+ Answer: (b) Ag+ and Fe Question vii. For the reaction Ni(s) + Cu2+ (1 M) → Ni2+ (1 M) + Cu(s), (E_text cell ⁰) = 0.57 V. Hence ΔG0 of the reaction is (a) 110 kJ (b) -110 kJ (c) 55 kJ (d) -55 kJ Answer: (b) -110 kJ Question viii. Which of the following is not correct ? (a) Gibbs energy is an extensive property (b) Electrode potential or cell potential is an intensive property. (c) Electrical work = -ΔG (d) If half reaction is multiplied by a numerical factor, the corresponding E0 value is also multiplied by the same factor. Answer: (d) If half reaction is multiplied by a numerical factor, the corresponding E0 value is also multiplied by the same factor. Question ix. The oxidation reaction that takes place in lead storage battery during discharge is Answer: (c) (mathrmPb_(mathrms)+mathrmSO_4(mathrmaq) ²⁻ long→ mathrmPbSO_4(mathrm~s)+2 mathrme⁻) Question x. Which of the following expressions represent molar conductivity of Al2(SO4)3 ? Answer: (b) (2 lambda_mathrmAl³⁺⁰+3 lambda_mathrmSO₄²⁻⁰)"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. Answer the following in one or two sentences. Question i. What is a cell constant ?",
+    "output": "Answer:(A) Cell constant of a conductivity cell is defined as the ratio of the distance between the electrodes divided by the area of cross section of the electrodes. In SI units it is expressed as m-"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Question ii. Write the relationship between conductivity and molar conductivity and hence unit of molar conductivity.",
+    "output": "Answer:If k is conductivity and ∧m is molar conductivity then, ∧m = ( (kappa ×"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Question iii. Write the electrode reactions during electrolysis of molten KCl.",
+    "output": "Answer:Question iv. Write any two functions of salt bridge."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. Answer the following in brief Question i. Explain the effect of dilution of solution on conductivity ?",
+    "output": "Answer:The conductance of a solution is due to the presence of ions in the solution. More the ions, higher is the conductance of the solution. Conductivity or the specific conductance is the conductance of unit volume ("
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "17. As a result, the emf of the cell decreases. The emf of a fully charged cell is about",
+    "output": "2.0 V. (ii) Recharging of the cell : When the discharged battery is connected to external electric source and a higher external potential is applied the cell reaction gets reversed generating H2SO"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. Reduction at the -ve electrode or cathode : PbSO",
+    "output": "4(s) + 2e– → Pb(s) + (mathrmSO_4(mathrmaq)²⁻) Oxidation at the + ve electrode or anode : The emf of the accumulator depends only on the concentration of H2SO"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. Question x. Write the electrode reactions and net cell reaction in NICAD battery.",
+    "output": "Answer:Reactions in the cell : (i) Oxidation at cadmium anode : Cd(s) +"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. Answer the following : Question i. What is Kohrausch law of independent migration of ions? How is it useful in obtaining molar conductivity at zero concentration of a weak electrolyte ? Explain with an example.",
+    "output": "Answer:(A) Statement of Kohlrausch’s law : This states that at infinite dilution of the solution, each ion of an electrolyte migrates independently of its co-ions and contributes independently to the total molar conductivity of the electrolyte, irrespective of the nature of other ions present in the solution. (B) Explanation : Both the ions, cation and anion of the electrolyte make a definite contribution to the molar conductivity of the electrolyte at infinite dilution or zero concentration (∧"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1.",
+    "output": "Answer:Given : WCu ="
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "106. What is the standard potential of the cell in which the reaction takes place ?",
+    "output": "Answer:For the cell reaction, n ="
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. The resistance of an electrolytic solution is measured by using a conductivity cell and Wheatstone Fig.",
+    "output": "5.6 : Measurement of conductance The measurement of molar conductivity of a solution involves two steps as follows : Step I : Determination of cell constant of the conductivity cell : KCl solution (0.01 M) whose conductivity is accurately known (κ = 0.00141 Ω-1 cm-1) is taken in a beaker and the conductivity cell is dipped. The two electrodes of the cell are connected to one arm while the variable known resistance (R) is placed in another arm of Wheatstone bridge. A current detector D’ which is a head phone or a magic eye is used. J is the sliding jockey (contact) that slides on the arm AB which is a wire of uniform cross section. A source of A.C. power (alternating power) is used to avoid electrolysis of the solution. By sliding the jockey on wire AB, a balance point (null point) is obtained at C. Let AC and BC be the lengths of wire. If Rsolution is the resistance of KCl solution and Rx is the known resistance then by Wheatstone’s bridge principle, ( (R_text solution mathrmBC= (R_xmathrmAC) ∴ (R_text solution =mathrmBC × (R_xmathrmAC) Then the cell constant ‘ b ’ of the conductivity cell is obtained by, b = κKcl × Rsolution. Step II : Determination of conductivity of the given solution : KCl solution is replaced by the given electrolytic solution and its resistance (Rs) is measured by Wheatstone bridge method by similar manner by obtaining a null point at D. The conductivity (κ) of the given solution is, κ = ( (text cell constant R_mathrms= (bR_mathrms) Step III: Calculation of molar conductivity : The molar conductivity (∧m) is given by, Since the concentration of the solution is known, ∧m can be calculated. Question viii. How will you calculate the moles of electrons passed and mass of the substance produced during electrolysis of a salt solution using reaction stoichiometry. Answer: Calculation of moles of electrons passed : The charge carried by one mole of electrons is referred to as one faraday (F). If total charge passed is Q C, then moles of electrons passed = ( (Q(mathrmC)Fleft(mathrmC / mathrmmol mathrme⁻right)) Calculation of mass of product : Mass, W of product formed is given by, W = moles of product × molar mass of product (M) = ( (Q96500) × mole ratio × M = ( (I × t96500) × mole ratio × M 96500 When two electrolytic cells containing different electrolytes are connected in series so that same quantity of electricity is passed through them, then the masses W1 and W2 of products produced are given by, Question ix. Write the electrode reactions when lead storage cell generates electricity. What are the anode and cathode and the electrode reactions during its recharging? Answer: Recharging of the cell : When the discharged battery is connected to external electric source and a higher external potential is applied the cell reaction gets reversed generating H2SO"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. Reduction at the – ve electrode or cathode : (mathrmPbSO_",
+    "output": "4(mathrm~s)+2 mathrme⁻ → mathrmPb^(s)+mathrmSO_4(mathrmaq)²⁻) Oxidation at the + ve electrode or anode : The emf of the accumulator depends only on the concentration of H2SO"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. Question x. What are anode and cathode of H",
+    "output": "2-O2 fuel cell ? Name the electrolyte used in it. Write electrode reactions and net cell reaction taking place in the fuel cell. Answer: Construction : (i) In fuel cell the anode and cathode are porous electrodes with suitable catalyst like finely divided platinum. (iii) H2 is continuously bubbled through anode while O, gas is bubbled through cathode. Working (cell reactions) : (i) Oxidation at anode : At anode, hydrogen gas is oxidised to H2O. 2H2(g) + 4OH–(aq) → 4H2O(l) + 4e– (oxidation half reaction) (ii) Reduction at cathode : The electrons released at anode travel to cathode through external circuit and reduce oxygen gas to OH–. O2(g) + 2H2O(l) + 4e– → 4OH–(aq) (reduction half reaction) (iii) Net cell reaction: Addition of both the above reactions at anode and cathode gives a net cell reaction. 2H2(g) + O2(g) → 2H2O(l) (overall cell reaction) Question xi. What are anode and cathode for Leclanche’ dry cell ? Write electrode reactions and overall cell reaction when it generates electricity. Answer: A dry cell has zinc vessel as anode and graphite rod as cathode and moist paste of ZnCl2, MnO2, NH4Cl as electrolytes. At anode : Zn(s) → (mathrmZn_(mathrmaq)²⁺) + 2e– (Oxidation half reaction) At graphite (c) cathode : (2 mathrmNH_4(mathrme)⁺) + 2e– → 2NH3(aq) + H2(g) (Reduction half reaction) 2MnO2(s) + H2 → Mn2O3(s) + H2O(l) There is a side reaction inside the cell, between Zn2+ ions and aqueous NH3. (mathrmZn_(mathrmaq)²⁺+4 mathrmNH_3(mathrmaq) long→left[mathrmZnleft(mathrmNH₃right)₄right]_(mathrmaq)²⁺) Question xii. Identify oxidising agents and arrange them in order of increasing strength under standard state conditions. The standard potentials are given in parenthesis. Al(- 1.66 V), Cl2 (1.36 V), Cd2+ (-0.4 V), Fe (-0.44 V), I2 (0.54 V), Br– (1.09 V). Answer: The oxidising agents are I2, Br– and Cl"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. The increasing strength is (Note : Actually Br",
+    "output": "2 acts as an oxidising agent but not Br–.) Question xiii. Which of the following species are reducing agents? Arrange them in order of increasing strength under standard state conditions. The standard potentials are given in parenthesis. K (-2.93V), Br2(1.09V), Mg(-2.36V), Co3+(1.61V), Ti2+(-0.37V), Ag+(0.8V), Ni (-0.23V). Answer: Lower the standard reduction potential, higher is reducing power. The reducing agents are Ni, Mg and K. Their increasing strength is, (Note : Cations don’t act as reducing agent since they are already in oxidised state.) Question xiv. Predict whether the following reactions would occur spontaneously under standard state conditions. a. Ca(s) + Cd2+(aq) → Ca2+(aq) + Cd(s) b. 2 Br-(s) + Sn2+(aq) → Br2(l) + Sn(s) c. 2Ag(s) + Ni2+(aq) → 2 Ag+(aq) + Ni(s) (use information of Table 5.1) Answer: 12th Chemistry Digest Chapter 5 Electrochemistry Intext Questions and Answers Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. How does electrical resistance depend on the dimensions of an electronic (metallic) conductor?",
+    "output": "Answer:The electrical resistance of an electronic conductor is linearly proportional to its length (l) and inversely proportional to its cross section area a. Fig."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. What are the units of resistivity ?",
+    "output": "Answer:For an electronic conductor of length l, and cross section area a, the resistance R is represented as R = ρ × ( (la) where ρ is the resistivity of the conductor. ∴ ρ = R × ( (al) If l ="
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. Define resistivity. What are its units ?",
+    "output": "Answer:Resistivity (or specific resistance) : It is the resistance of a conductor that is"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "4. Why is alternating current used in the measurement of conductivity of the solution ?",
+    "output": "Answer:If direct current (D.C.) by battery is used, there will be electrolysis and the concentration of the solution is changed. Hence alternating current (A.C.) with high frequency is used. Try this… (Textbook page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. What must be the concentration of a solution of silver nitrate to have the molar conductivity of",
+    "output": "121.4 Ω-1 cm2 mol-1 and the conductivity of 2.428 × 10-3 Ω-1 cm-1 at 25 °C ? Answer: ∴ Concentration of a Solution = 0.02 M Try this… (Textbook page No. 96) Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Obtain the expression for dissociation constant in terms of ∧c and ∧",
+    "output": "0 using Ostwald’s dilution law. Answer: Consider a solution of a weak electrolyte, BA having concentration C mol dm-"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "3. If α is the ° of dissociation, then by Ostwald’s theory of weak electrolytes, If K is the dissociation constant of the weak electrolyte, then by Ostwald’s dilution law, K = ( (α^",
+    "output": "2 C(1-α)) If ∧m is the molar conductivity of the electrolyte BA at the concentration C and ∧0 is the molar conductivity at zero concentration or infinite dilution, then Hence by measuring ∧m at the concentration C and knowing ∧0, the dissociation constant can be calculated. If (lambda₊⁰) and (lambda₋⁰) are the ionic conductivities, then by Kohlrauseh’s law, ∧0 = (lambda₊⁰) + (lambda₋⁰). Learn this as well… Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. How is the cell constant of a conductivity cell determined?",
+    "output": "Answer:The cell constant of a given conductivity cell is obtained by measuring the resistance (R) (or the conductance) of a standard solution whose conductivity (fc) is accurately known by using Wheatstone’s bridge (discussed in Q."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Calculate ∧",
+    "output": "0 (CH2ClCOOH) if ∧0 values for HCl, KCl and CH2ClCOOK are respectively, 4.261, 1.499 and 1.132 Ω-1 m2 mol-"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Solution : Adding equations (i) and (ii) and subtracting equation (iii) we get equation (I). Can you tell ? (Textbook page No.",
+    "output": "103) Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. You have learnt Daniel cell in XIth standard. Write notations for anode and cathode. Write the cell formula.",
+    "output": "Answer:Daniel cell is represented as, Try this… (Textbook page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Write electrode reactions and overall cell reaction for Daniel cell you learnt in standard XI.",
+    "output": "Answer:Reactions for Daniell cell: Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Describe different types of reversible electrodes with examples. (",
+    "output": "1 mark for each type) Answer: A reversible electrochemical cell or a galvanic cell consists of two reversible half cells or electrodes. There are four types of reversible electrodes according to their compositions. (1) Metal-metal ion electrode : This electrode is set up by dipπng a metal in a solution containing its own ions, e.g. Zn rod dipped into ZnSO4 solution containing Zn++ ions of concentration C. It is represented as, (mathrmZn²⁺ _(mathrmaq) mid mathrmZn_(mathrms)) The reduction reaction at the electrode is, Zn++(aq) + 2e– → Zn(s) (2) Metal-sparingly soluble salt electrode : This electrode consists of a metal coated with one of its sparingly soluble salts and immersed in a solution containing an electrolyte having a common anion as that of the salt. For example, silver electrode coated with sparingly soluble AgCl dipped in KCl solution with common anion Cl–. This electrode is represented as, Cl–(aq) | AgCl(s) | Ag(s) The reduction reaction is, AgCl(s) + e → Ag(s) + Cl–(aq) (3) Gas electrode : This is developed by bubbling pure and dry gas around a platinised platinum foil dipped in the solution containing ions (of the gas) reversible with respect to the gas bubbled. The gas is adsorbed on the surface of platinum foil and establishes an equilibrium with its ions in the solution. Pt electrode provides electrical contact and also acts as a catalyst. Some of the gas electrodes are represented as follows : (i) Hydrogen gas electrode : H+(aq) | H2(g, PH2) | Pt Reduction reaction : H+(aq) + e– → ( ( 12)H2(g) (ii) Chlorine gas electrode : Cl–(aq) | Cl2(g, PCl2) | Pt Reduction reaction : ( ( 12)Cl2(g) + e- → Cl–(aq) (4) Redox electrode (Oxidation reduction electrode) : This electrode consists of a platinum wire dipped in a solution containing the ions of the same metal (or a substance) in two different oxidation states, like Fe2+ – Fe3+, Sn2+ – Sn4+, Mn++ – MnO–4, etc. A platinum electrode which provides an electrical contact and acts as catalyst aquires an equilibrium between two ions in the solution, due to their tendency to undergo a change from one oxidation state to another. The electrodes are represented as, Fe2+(aq), Fe3+(aq) | Pt Reduction reaction : Fe3+(aq) + e– → Fe2+(aq) SnCl2(aq), SnCl4(aq) | Pt Reduction reaction : Sn4+(aq) + 2e– →Sn2+(aq) Use your brain power! (Textbook page No. 98) Question"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Distinguish between electrolytic and galvanic cells.",
+    "output": "Answer:Electrolytic cell: This device is used to bring about a non-spontaneous chemical reaction by passing an electric current. It is used to bring about a chemical reaction generally for the dissociation (electrolysis) of compounds. In this cell, electrical energy is converted into chemical energy. In this cell, the cathode is negative and the anode is positive. Electrolytic cells are irreversible. Oxidation takes place at the positive electrode and reduction at the negative electrode. The electrons are supplied by the external source and enter through cathode and come out through anode. It is used for electroplating, electrorefining, etc. Electrochemical cell (Galvanic cell or Voltaic cell): This device is used to produce electrical energy by a spontaneous chemical reaction. It is used to generate electricity. In this cell, chemical energy is converted into electrical energy. In this cell, the cathode is positive and the anode is negative. Electrochernical cells are reversible. Oxidation takes place at the negative electrode and reduction at the positive electrode. The electrons move from anode to cathode in the external circuit. It is used as a source of electric current. Try this… (Textbook page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Write expressions to calculate equilibrium constant from i. Concentration data ii. Thermochemical data iii. Electrochemical data",
+    "output": "Answer:(i) Consider following a reversible cell reaction. aA + bB ⇌ cC + dD If [A], [B], [C] and [D] represent concentrations of reactants and products then the equilibrium constant K is, K = ( ([mathrmC]^c ×[mathrmD]^d[mathrm~A]^a ×[mathrmB]^b) (ii) If ΔG"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. The construction and working of the calomel electrode.",
+    "output": "Answer:("
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. In what ways are fuel cells and galvanic cells similar and in what ways are they different ?",
+    "output": "Answer:Similarity between fuel cells and galvanic cells : In both the cells, there is oxidation at anode and j reduction at cathode. The cell potential is developed due to net redox reactions. Both are galvanic cells. Difference in fuel cells and galvanic cells : Fuel cells involve electrodes with large surface area while galvanic cells involve electrodes with j compact surface area. Fuel cells involve gaseous materials on a large scale while galvanic cells involve gaseous materials at a definite pressures along with electrolytes or there may not be gases. In fuel cells, the cell potential is developed due to exothermic combustion reactions while in galvanic cell, cell potential is developed due to normal redox reactions. In fuel cells gaseous electrode materials are continuously supplied from outside while in galvanic cells electrode materials have constant concentration or may change due to reactions. Use your brain power (Textbook page No."
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Indentify the strongest and the weakest oxidizing agents from the electrochemical series.",
+    "output": "Answer:From the electrochemical series, (a) The strongest oxidising agent is fluorine since it has the highest standard reduction potential ((E_mathrmF_"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "1. Identify the strongest and the weakest reducing agents from the electrochemical series.",
+    "output": "Answer:(a) From the electrochemical series, the strongest reducing agent is lithium since it has the lowest standard reduction potential ((E_mathrmLi⁺ / mathrmLi^"
+  },
+  {
+    "instruction": "Answer the following question:",
+    "input": "2. From E° values given in Table",
+    "output": "5.1, predict whether Sn can reduce I2 or Ni2+. Answer: From the electrochemical series, Maharashtra State Board Class 12 Chemistry Textbook Solutions Solid State Class 12 Exercise Solutions Solutions Class 12 Exercise Solutions Ionic Equilibria Class 12 Exercise Solutions Chemical Thermodynamics Class 12 Exercise Solutions Electrochemistry Class 12 Exercise Solutions Chemical Kinetics Class 12 Exercise Solutions Elements of Groups 16, 17 and 18 Class 12 Exercise Solutions Transition and Inner Transition Elements Class 12 Exercise Solutions Coordination Compounds Class 12 Exercise Solutions Halogen Derivatives Class 12 Exercise Solutions Alcohols, Phenols and Ethers Class 12 Exercise Solutions Aldehydes, Ketones and Carboxylic Acids Class 12 Exercise Solutions Amines Class 12 Exercise Solutions 14 Biomolecules Class 12 Exercise Solutions Introduction to Polymer Chemistry Class 12 Exercise Solutions Green Chemistry and Nanochemistry Class 12 Exercise Solutions Categories Class 12 12th Chemistry Chapter 4 Exercise Chemical Thermodynamics Solutions Maharashtra Board12th Chemistry Chapter 6 Exercise Chemical Kinetics Solutions Maharashtra Board Leave a Comment Cancel replyYou must be logged in to post a comment. Search for: Recent Posts Class 6 Marathi Balbharati Chapter 22 Question Answer वडिलांस पत्र Class 6 Marathi Balbharati Chapter 21 Question Answer या काळाच्या भाळावरती (कविता) Class 6 Marathi Balbharati Chapter 20 Question Answer ओळख थोरांची Class 6 Marathi Balbharati Chapter 19 Question Answer मले बाजाराला जायाचं बाई Class 6 Marathi Balbharati Chapter 18 Question Answer बहुमोल जीवन (कविता) Class 6 Marathi Balbharati Chapter 17 Question Answer दुखणं बोटभर Class 6 Marathi Balbharati Chapter 16 Question Answer सफर मेट्रोची Class 6 Marathi Balbharati Chapter 15 Question Answer बालसभा Class 6 Marathi Balbharati Chapter 14 Question Answer आतां उजाडेल (कविता) Class 6 Marathi Balbharati Chapter 13 Question Answer आपली सुरक्षा, आपले उपाय Class 6 Marathi Balbharati Chapter 12 Question Answer मला मोठं व्हायचंय Maharashtra State Board Class 12 Solutions Maharashtra State Board Class 11 Solutions Maharashtra State Board Class 10 Solutions Calculadora de Porcentaje Maharashtra State Board Class 9 Solutions Maharashtra State Board Class 8 Solutions Maharashtra State Board Class 7 Solutions Maharashtra State Board Class 6 Solutions Maharashtra State Board Class 5 Solutions About Us Privacy Policy Disclaimer Contact Us Copyright © 2025 Maharashtra Board Solutions"
+  }
+]

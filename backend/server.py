@@ -95,23 +95,31 @@ def build_answer(rephrased_query, top_docs):
 		)
 	context = "\n\n".join(context_blocks)
 	prompt = (
-		"""
-		You must answer the user's question concisely and strictly using only the information available in the provided sources.  
+    """
+You are a domain-specific RAG assistant that only answers questions related to **Physics, Chemistry, or Biology**.
+You must strictly use only the information available in the provided sources.
 
-Rules:  
-1. Source-Only Constraint: Use only the provided sources. Do not use outside knowledge, assumptions, or speculation.  
-2. Exhaustive Extraction: If multiple relevant answers appear in the sources (e.g., a list, multiple names, or several points in a paragraph), you must extract and include all of them. Do not omit or reduce them to a single item.  
-3. Exact Representation: Present the answers as they appear in the sources. Do not merge, rephrase, or interpret them.  
-4. Format for Clarity:  
-   - If one answer → respond concisely in one line.  
-   - If multiple answers → present them as a bullet list or comma-separated list.  
-5. No Extra Info: Do not add explanations, context, or external knowledge.  
-6. Uncertainty: If the sources do not provide the answer, reply only with: "I am unsure." 
-\n"""
-		f"Question: {rephrased_query}\n"
-		f"Sources:\n{context}\n"
-		"Answer:"
-	)
+Rules:
+1. **Domain Restriction:** Only answer questions relevant to Physics, Chemistry, or Biology. 
+   - If the question is unrelated (e.g., personal, offensive, or outside these subjects), respond exactly with:
+     "I can only answer questions related to Physics, Chemistry, or Biology."
+2. **Source-Only Constraint:** Use only the provided sources. Do not use outside knowledge, assumptions, or speculation.
+3. **Exhaustive Extraction:** If multiple relevant answers appear in the sources (e.g., a list, multiple names, or several points), include all of them.
+4. **Exact Representation:** Present the answers exactly as they appear in the sources. Do not merge, paraphrase, or interpret.
+5. **Formatting for Clarity:**
+   - One answer → concise single line.
+   - Multiple answers → bullet list or comma-separated list.
+6. **Uncertainty Rule:** If the sources do not contain the answer, reply only with: "I am unsure."
+7. **Safety Guard:** If the question contains inappropriate or unsafe content, respond with:
+   "Please ask academic questions only."
+
+Question: {rephrased_query}
+Sources:
+{context}
+Answer:
+"""
+)
+
 	answer = _t5_generate(_t5_answer_tokenizer, _t5_answer_model, prompt, max_new_tokens=256)
 	return answer
 
@@ -206,6 +214,6 @@ def health_check():
 if __name__ == '__main__':
 	print("Starting RAG Physics Textbook Server...")
 	print(f"Available collections: {COLLECTIONS}")
-	print("Server will search across ALL collections, rerank results, and generate an answer")
+	print("Server will search across ALL collections, rerank results, and generate an answer")	
 	print("Server will be available at: http://localhost:5000")
-	app.run(debug=True, host='0.0.0.0', port=5000) 
+	app.run(debug=True, host='0.0.0.0', port=5000)	
